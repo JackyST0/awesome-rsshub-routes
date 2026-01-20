@@ -43,9 +43,7 @@
 | 名称 | 订阅地址 | 说明 |
 |------|----------|------|
 | OpenAI 博客 | `https://openai.com/blog/rss.xml` | GPT 官方动态 |
-| Anthropic 博客 | `https://www.anthropic.com/feed.xml` | Claude 官方动态 |
 | Google DeepMind | `https://deepmind.google/blog/rss.xml` | DeepMind 研究 |
-| Meta AI | `https://ai.meta.com/blog/rss/` | Meta AI 研究 |
 
 #### AI 论文 & 资讯
 
