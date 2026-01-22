@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Awesome RSSHub Routes 精选订阅源</title>
+    <dateCreated>2026-01-22</dateCreated>
+    <ownerName>JackyST0</ownerName>
+  </head>
+  <body>
+    <!-- AI 专题 -->
+    <outline text="🤖 AI 专题" title="AI 专题">
+      <outline type="rss" text="OpenAI 博客" title="OpenAI 博客" xmlUrl="https://openai.com/news/rss.xml"/>
+      <outline type="rss" text="Google DeepMind" title="Google DeepMind" xmlUrl="https://deepmind.google/blog/rss.xml"/>
+      <outline type="rss" text="arXiv AI" title="arXiv AI" xmlUrl="https://rss.arxiv.org/rss/cs.AI"/>
+      <outline type="rss" text="arXiv 机器学习" title="arXiv 机器学习" xmlUrl="https://rss.arxiv.org/rss/cs.LG"/>
+      <outline type="rss" text="arXiv NLP" title="arXiv NLP" xmlUrl="https://rss.arxiv.org/rss/cs.CL"/>
+      <outline type="rss" text="arXiv 计算机视觉" title="arXiv 计算机视觉" xmlUrl="https://rss.arxiv.org/rss/cs.CV"/>
+      <outline type="rss" text="Hacker News AI" title="Hacker News AI" xmlUrl="https://hnrss.org/newest?q=AI"/>
+      <outline type="rss" text="Hacker News LLM" title="Hacker News LLM" xmlUrl="https://hnrss.org/newest?q=LLM"/>
+      <outline type="rss" text="Hugging Face 博客" title="Hugging Face 博客" xmlUrl="https://huggingface.co/blog/feed.xml"/>
+      <outline type="rss" text="Stability AI" title="Stability AI" xmlUrl="https://stability.ai/news?format=rss"/>
+    </outline>
+
+    <!-- 技术社区 -->
+    <outline text="💻 技术社区" title="技术社区">
+      <outline type="rss" text="LinuxDo 最新话题" title="LinuxDo 最新话题" xmlUrl="https://linux.do/latest.rss"/>
+      <outline type="rss" text="LinuxDo 热门话题" title="LinuxDo 热门话题" xmlUrl="https://linux.do/top.rss"/>
+      <outline type="rss" text="V2EX 最热" title="V2EX 最热" xmlUrl="https://www.v2ex.com/feed/tab/hot.xml"/>
+      <outline type="rss" text="V2EX 技术" title="V2EX 技术" xmlUrl="https://www.v2ex.com/feed/tab/tech.xml"/>
+      <outline type="rss" text="Hacker News 首页" title="Hacker News 首页" xmlUrl="https://hnrss.org/frontpage"/>
+      <outline type="rss" text="Hacker News 最佳" title="Hacker News 最佳" xmlUrl="https://hnrss.org/best"/>
+      <outline type="rss" text="Hacker News Ask" title="Hacker News Ask" xmlUrl="https://hnrss.org/ask"/>
+      <outline type="rss" text="Hacker News Show" title="Hacker News Show" xmlUrl="https://hnrss.org/show"/>
+      <outline type="rss" text="少数派" title="少数派" xmlUrl="https://sspai.com/feed"/>
+      <outline type="rss" text="阮一峰的网络日志" title="阮一峰的网络日志" xmlUrl="https://www.ruanyifeng.com/blog/atom.xml"/>
+    </outline>
+
+    <!-- 新闻资讯 -->
+    <outline text="📰 新闻资讯" title="新闻资讯">
+      <outline type="rss" text="IT之家" title="IT之家" xmlUrl="https://www.ithome.com/rss/"/>
+      <outline type="rss" text="知乎日报" title="知乎日报" xmlUrl="https://feeds.feedburner.com/zhihu-daily"/>
+    </outline>
+
+    <!-- 科技媒体 -->
+    <outline text="🌐 科技媒体" title="科技媒体">
+      <outline type="rss" text="TechCrunch" title="TechCrunch" xmlUrl="https://techcrunch.com/feed/"/>
+      <outline type="rss" text="The Verge" title="The Verge" xmlUrl="https://www.theverge.com/rss/index.xml"/>
+      <outline type="rss" text="Wired" title="Wired" xmlUrl="https://www.wired.com/feed/rss"/>
+      <outline type="rss" text="Ars Technica" title="Ars Technica" xmlUrl="https://feeds.arstechnica.com/arstechnica/index"/>
+      <outline type="rss" text="MIT Technology Review" title="MIT Technology Review" xmlUrl="https://www.technologyreview.com/feed/"/>
+    </outline>
+
+    <!-- 安全资讯 -->
+    <outline text="🛡️ 安全资讯" title="安全资讯">
+      <outline type="rss" text="Krebs on Security" title="Krebs on Security" xmlUrl="https://krebsonsecurity.com/feed/"/>
+      <outline type="rss" text="The Hacker News" title="The Hacker News" xmlUrl="https://feeds.feedburner.com/TheHackersNews"/>
+      <outline type="rss" text="Schneier on Security" title="Schneier on Security" xmlUrl="https://www.schneier.com/feed/"/>
+      <outline type="rss" text="FreeBuf" title="FreeBuf" xmlUrl="https://www.freebuf.com/feed"/>
+      <outline type="rss" text="安全客" title="安全客" xmlUrl="https://api.anquanke.com/data/v1/rss"/>
+    </outline>
+
+    <!-- 前端 & 设计 -->
+    <outline text="🎨 前端 &amp; 设计" title="前端 &amp; 设计">
+      <outline type="rss" text="Smashing Magazine" title="Smashing Magazine" xmlUrl="https://www.smashingmagazine.com/feed/"/>
+      <outline type="rss" text="A List Apart" title="A List Apart" xmlUrl="https://alistapart.com/main/feed/"/>
+      <outline type="rss" text="Codrops" title="Codrops" xmlUrl="https://tympanus.net/codrops/feed/"/>
+      <outline type="rss" text="CSS-Tricks" title="CSS-Tricks" xmlUrl="https://css-tricks.com/feed/"/>
+      <outline type="rss" text="Dev.to" title="Dev.to" xmlUrl="https://dev.to/feed"/>
+      <outline type="rss" text="Chrome Developer Blog" title="Chrome Developer Blog" xmlUrl="https://developer.chrome.com/blog/feed.xml"/>
+      <outline type="rss" text="Dribbble Popular" title="Dribbble Popular" xmlUrl="https://dribbble.com/shots/popular.rss"/>
+      <outline type="rss" text="Product Hunt" title="Product Hunt" xmlUrl="https://www.producthunt.com/feed"/>
+    </outline>
+
+    <!-- 编程语言官方博客 -->
+    <outline text="📦 编程语言官方博客" title="编程语言官方博客">
+      <outline type="rss" text="React Blog" title="React Blog" xmlUrl="https://react.dev/rss.xml"/>
+      <outline type="rss" text="Vue Blog" title="Vue Blog" xmlUrl="https://blog.vuejs.org/feed.rss"/>
+      <outline type="rss" text="Rust Blog" title="Rust Blog" xmlUrl="https://blog.rust-lang.org/feed.xml"/>
+      <outline type="rss" text="Go Blog" title="Go Blog" xmlUrl="https://go.dev/blog/feed.atom"/>
+      <outline type="rss" text="Python Blog" title="Python Blog" xmlUrl="https://blog.python.org/feeds/posts/default"/>
+      <outline type="rss" text="Node.js Blog" title="Node.js Blog" xmlUrl="https://nodejs.org/en/feed/blog.xml"/>
+      <outline type="rss" text="TypeScript Blog" title="TypeScript Blog" xmlUrl="https://devblogs.microsoft.com/typescript/feed/"/>
+    </outline>
+
+    <!-- 大厂技术博客 -->
+    <outline text="🏢 大厂技术博客" title="大厂技术博客">
+      <outline type="rss" text="GitHub Blog" title="GitHub Blog" xmlUrl="https://github.blog/feed/"/>
+      <outline type="rss" text="Netflix Tech Blog" title="Netflix Tech Blog" xmlUrl="https://netflixtechblog.com/feed"/>
+      <outline type="rss" text="AWS Blog" title="AWS Blog" xmlUrl="https://aws.amazon.com/blogs/aws/feed/"/>
+      <outline type="rss" text="Cloudflare Blog" title="Cloudflare Blog" xmlUrl="https://blog.cloudflare.com/rss/"/>
+      <outline type="rss" text="Mozilla Hacks" title="Mozilla Hacks" xmlUrl="https://hacks.mozilla.org/feed/"/>
+      <outline type="rss" text="Vercel Blog" title="Vercel Blog" xmlUrl="https://vercel.com/atom"/>
+      <outline type="rss" text="Supabase Blog" title="Supabase Blog" xmlUrl="https://supabase.com/blog/rss.xml"/>
+    </outline>
+
+    <!-- 学术论文 -->
+    <outline text="📚 学术论文" title="学术论文">
+      <outline type="rss" text="Nature" title="Nature" xmlUrl="https://www.nature.com/nature.rss"/>
+    </outline>
+
+    <!-- RSS 工具更新 -->
+    <outline text="🔧 RSS 工具更新" title="RSS 工具更新">
+      <outline type="rss" text="RSSHub Releases" title="RSSHub Releases" xmlUrl="https://github.com/DIYgod/RSSHub/releases.atom"/>
+      <outline type="rss" text="RSSHub Radar Releases" title="RSSHub Radar Releases" xmlUrl="https://github.com/DIYgod/RSSHub-Radar/releases.atom"/>
+      <outline type="rss" text="Fluent Reader Releases" title="Fluent Reader Releases" xmlUrl="https://github.com/yang991178/fluent-reader/releases.atom"/>
+      <outline type="rss" text="NetNewsWire Releases" title="NetNewsWire Releases" xmlUrl="https://github.com/Ranchero-Software/NetNewsWire/releases.atom"/>
+      <outline type="rss" text="FreshRSS Releases" title="FreshRSS Releases" xmlUrl="https://github.com/FreshRSS/FreshRSS/releases.atom"/>
+    </outline>
+  </body>
+</opml>

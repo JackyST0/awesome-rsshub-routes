@@ -12,6 +12,8 @@
 
 🌐 **RSSHub 官方文档**：https://docs.rsshub.app
 
+📥 **一键导入**：下载 [feeds.opml](./feeds.opml) 文件，导入到你的 RSS 阅读器即可订阅全部精选源！
+
 ---
 
 ## 📚 目录
