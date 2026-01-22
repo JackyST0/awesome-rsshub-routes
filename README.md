@@ -3,6 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![GitHub stars](https://img.shields.io/github/stars/JackyST0/awesome-rsshub-routes?style=social)](https://github.com/JackyST0/awesome-rsshub-routes)
 [![License](https://img.shields.io/github/license/JackyST0/awesome-rsshub-routes)](LICENSE)
+[![Check Feeds](https://github.com/JackyST0/awesome-rsshub-routes/actions/workflows/check-feeds.yml/badge.svg)](https://github.com/JackyST0/awesome-rsshub-routes/actions/workflows/check-feeds.yml)
 
 > 🔥 精选 RSS 订阅源推荐，包含 RSSHub 路由和官方 RSS，让你的阅读更高效！
 

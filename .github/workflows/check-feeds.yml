@@ -1,0 +1,62 @@
+name: Check RSS Feeds
+
+on:
+  schedule:
+    # 每天早上 10 点 (北京时间 UTC+8，即 UTC 2 点) 运行
+    - cron: '0 2 * * *'
+  workflow_dispatch: # 允许手动触发
+
+jobs:
+  check-feeds:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Check RSS feeds
+        run: node scripts/check-feeds.js
+
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        with:
+          name: feed-check-results
+          path: feed-status.json
+        if: always()
+
+      - name: Update README badge
+        run: |
+          if [ -f feed-status.json ]; then
+            TOTAL=$(jq '.total' feed-status.json)
+            VALID=$(jq '.valid' feed-status.json)
+            echo "检测完成: $VALID/$TOTAL 个链接可用"
+          fi
+
+      - name: Create Issue if feeds are broken
+        uses: actions/github-script@v7
+        if: failure()
+        with:
+          script: |
+            const fs = require('fs');
+            if (fs.existsSync('feed-status.json')) {
+              const status = JSON.parse(fs.readFileSync('feed-status.json', 'utf8'));
+              const broken = status.feeds.filter(f => !f.valid);
+              if (broken.length > 0) {
+                const body = `## ⚠️ RSS 链接检测报告\n\n检测时间: ${new Date().toISOString()}\n\n### 失效链接 (${broken.length} 个)\n\n${broken.map(f => `- [ ] **${f.name}**: \`${f.url}\` - ${f.error}`).join('\n')}`;
+                github.rest.issues.create({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  title: `🔴 发现 ${broken.length} 个失效的 RSS 链接`,
+                  body: body,
+                  labels: ['bug', 'feed-check']
+                });
+              }
+            }

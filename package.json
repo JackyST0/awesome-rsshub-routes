@@ -1,0 +1,14 @@
+{
+  "name": "awesome-rsshub-routes",
+  "version": "1.0.0",
+  "description": "精选 RSS 订阅源推荐",
+  "scripts": {
+    "check": "node scripts/check-feeds.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JackyST0/awesome-rsshub-routes.git"
+  },
+  "author": "JackyST0",
+  "license": "MIT"
+}
