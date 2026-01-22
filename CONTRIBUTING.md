@@ -56,16 +56,29 @@ git push origin add-new-routes
 
 ## 分类说明
 
+### 官方 RSS 订阅
+
 | 分类 | 内容 |
 |------|------|
-| 社交媒体 | 微博、知乎、小红书、Twitter 等 |
-| 技术社区 | GitHub、掘金、V2EX、CSDN 等 |
-| 新闻热榜 | 头条、百度、各大新闻媒体 |
-| 视频平台 | B站、YouTube、抖音等 |
-| 音乐播客 | 网易云、QQ音乐、播客等 |
-| 购物优惠 | 什么值得买、京东等 |
-| 求职招聘 | 牛客、脉脉、Boss直聘等 |
-| 其他 | 不属于以上分类的实用路由 |
+| AI 专题 | OpenAI、DeepMind、arXiv 等 AI 相关 |
+| 技术社区 | LinuxDo、V2EX、Hacker News、GitHub 等 |
+| 新闻资讯 | IT之家、知乎等 |
+| 科技媒体 | TechCrunch、The Verge、Wired 等 |
+| 安全资讯 | FreeBuf、安全客、Krebs on Security 等 |
+| 前端 & 设计 | Smashing Magazine、Dribbble、Codrops 等 |
+| 编程语言官方博客 | React、Vue、Rust、Go、Python 等 |
+| 大厂技术博客 | GitHub、Netflix、AWS、Cloudflare 等 |
+| 学术论文 | Nature、arXiv 等 |
+
+### RSSHub 路由
+
+| 分类 | 内容 |
+|------|------|
+| 社交媒体 | 微博、知乎、小红书、抖音等 |
+| 技术社区 | GitHub Trending、掘金、CSDN 等 |
+| 新闻热榜 | 头条、百度、36氪等 |
+| 视频平台 | B站、豆瓣电影等 |
+| 购物优惠 | 什么值得买等 |
 
 ## 问题反馈
 
