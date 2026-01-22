@@ -9,6 +9,9 @@ on:
 jobs:
   check-feeds:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
     
     steps:
       - name: Checkout repository
@@ -19,44 +22,83 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install dependencies
-        run: npm install
-
       - name: Check RSS feeds
+        id: check
         run: node scripts/check-feeds.js
+        continue-on-error: true
 
-      - name: Upload results
-        uses: actions/upload-artifact@v4
-        with:
-          name: feed-check-results
-          path: feed-status.json
-        if: always()
-
-      - name: Update README badge
-        run: |
-          if [ -f feed-status.json ]; then
-            TOTAL=$(jq '.total' feed-status.json)
-            VALID=$(jq '.valid' feed-status.json)
-            echo "检测完成: $VALID/$TOTAL 个链接可用"
-          fi
-
-      - name: Create Issue if feeds are broken
+      - name: Update or Create Issue
         uses: actions/github-script@v7
-        if: failure()
         with:
           script: |
             const fs = require('fs');
-            if (fs.existsSync('feed-status.json')) {
-              const status = JSON.parse(fs.readFileSync('feed-status.json', 'utf8'));
-              const broken = status.feeds.filter(f => !f.valid);
-              if (broken.length > 0) {
-                const body = `## ⚠️ RSS 链接检测报告\n\n检测时间: ${new Date().toISOString()}\n\n### 失效链接 (${broken.length} 个)\n\n${broken.map(f => `- [ ] **${f.name}**: \`${f.url}\` - ${f.error}`).join('\n')}`;
-                github.rest.issues.create({
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  title: `🔴 发现 ${broken.length} 个失效的 RSS 链接`,
-                  body: body,
-                  labels: ['bug', 'feed-check']
-                });
-              }
+            
+            if (!fs.existsSync('feed-status.json')) {
+              console.log('No status file found');
+              return;
             }
+            
+            const status = JSON.parse(fs.readFileSync('feed-status.json', 'utf8'));
+            const broken = status.feeds.filter(f => !f.valid);
+            const issueTitle = '📊 RSS 订阅源健康状态报告';
+            
+            // 查找是否已存在状态报告 Issue
+            const issues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'feed-status'
+            });
+            
+            const existingIssue = issues.data.find(i => i.title === issueTitle);
+            
+            // 生成报告内容
+            let body = `## 📊 RSS 订阅源健康状态\n\n`;
+            body += `> 🕐 最近检测时间: ${status.checkTime}\n\n`;
+            body += `| 指标 | 数值 |\n|------|------|\n`;
+            body += `| ✅ 可用 | ${status.valid} |\n`;
+            body += `| ❌ 失效 | ${status.invalid} |\n`;
+            body += `| 📈 成功率 | ${status.successRate} |\n\n`;
+            
+            if (broken.length > 0) {
+              body += `### ⚠️ 失效链接 (${broken.length} 个)\n\n`;
+              body += `| 名称 | 错误 |\n|------|------|\n`;
+              broken.forEach(f => {
+                body += `| ${f.name} | ${f.error} |\n`;
+              });
+              body += `\n> 请检查这些链接是否需要更新或移除\n`;
+            } else {
+              body += `### ✅ 所有链接正常！\n\n`;
+              body += `全部 ${status.total} 个订阅源都可以正常访问。\n`;
+            }
+            
+            body += `\n---\n*此 Issue 由 GitHub Actions 自动更新，请勿手动关闭*`;
+            
+            if (existingIssue) {
+              // 更新现有 Issue
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existingIssue.number,
+                body: body
+              });
+              console.log(`Updated issue #${existingIssue.number}`);
+            } else {
+              // 创建新 Issue
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: issueTitle,
+                body: body,
+                labels: ['feed-status']
+              });
+              console.log('Created new status issue');
+            }
+
+      - name: Update README badge data
+        run: |
+          if [ -f feed-status.json ]; then
+            TOTAL=$(cat feed-status.json | grep -o '"total":[0-9]*' | grep -o '[0-9]*')
+            VALID=$(cat feed-status.json | grep -o '"valid":[0-9]*' | grep -o '[0-9]*')
+            echo "✅ 检测完成: $VALID/$TOTAL 个链接可用"
+          fi
