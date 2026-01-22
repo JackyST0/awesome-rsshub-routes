@@ -22,31 +22,46 @@ function extractFeedsFromOPML(opmlPath) {
 }
 
 // 检查单个 URL 是否可访问
-function checkUrl(url, timeout = 15000) {
+function checkUrl(url, timeout = 20000) {
   return new Promise((resolve) => {
     const protocol = url.startsWith('https') ? https : http;
     
-    const req = protocol.get(url, {
+    const options = {
       timeout: timeout,
       headers: {
-        'User-Agent': 'Mozilla/5.0 (compatible; RSS-Feed-Checker/1.0)'
-      }
-    }, (res) => {
-      // 2xx 和 3xx 都算成功
-      const valid = res.statusCode >= 200 && res.statusCode < 400;
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Accept': 'application/rss+xml, application/xml, text/xml, */*'
+      },
+      rejectUnauthorized: false // 忽略证书错误，避免误报
+    };
+    
+    const req = protocol.get(url, options, (res) => {
+      // 2xx, 3xx 和部分 4xx (403/405 可能是反爬但实际可用) 都算成功
+      const statusCode = res.statusCode;
+      // 只有 404, 500+ 才算真的失效
+      const valid = statusCode < 400 || statusCode === 403 || statusCode === 405;
       resolve({
         valid,
-        statusCode: res.statusCode,
-        error: valid ? null : `HTTP ${res.statusCode}`
+        statusCode: statusCode,
+        error: valid ? null : `HTTP ${statusCode}`
       });
     });
     
     req.on('error', (err) => {
-      resolve({
-        valid: false,
-        statusCode: null,
-        error: err.message
-      });
+      // 证书错误不算失效
+      if (err.message.includes('certificate')) {
+        resolve({
+          valid: true,
+          statusCode: null,
+          error: null
+        });
+      } else {
+        resolve({
+          valid: false,
+          statusCode: null,
+          error: err.message
+        });
+      }
     });
     
     req.on('timeout', () => {
