@@ -2,8 +2,8 @@ name: Check RSS Feeds
 
 on:
   schedule:
-    # 每天早上 10 点 (北京时间 UTC+8，即 UTC 2 点) 运行
-    - cron: '0 2 * * *'
+    # 每周一早上 10 点 (北京时间 UTC+8，即 UTC 2 点) 运行
+    - cron: '0 2 * * 1'
   workflow_dispatch: # 允许手动触发
 
 jobs:
@@ -102,3 +102,28 @@ jobs:
             VALID=$(cat feed-status.json | grep -o '"valid":[0-9]*' | grep -o '[0-9]*')
             echo "✅ 检测完成: $VALID/$TOTAL 个链接可用"
           fi
+
+      - name: Send email notification
+        if: failure() && env.EMAIL_USERNAME != ''
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 587
+          username: ${{ secrets.EMAIL_USERNAME }}
+          password: ${{ secrets.EMAIL_PASSWORD }}
+          subject: "⚠️ RSS 订阅源检测发现失效链接"
+          to: ${{ secrets.EMAIL_TO }}
+          from: RSS Feed Checker <${{ secrets.EMAIL_USERNAME }}>
+          body: |
+            RSS 订阅源健康检测发现问题！
+            
+            检测时间: ${{ github.event.repository.updated_at }}
+            仓库: ${{ github.repository }}
+            
+            请查看 Issue 获取详细报告:
+            https://github.com/${{ github.repository }}/issues
+            
+            ---
+            此邮件由 GitHub Actions 自动发送
+        env:
+          EMAIL_USERNAME: ${{ secrets.EMAIL_USERNAME }}
