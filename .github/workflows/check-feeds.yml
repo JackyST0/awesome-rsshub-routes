@@ -1,9 +1,14 @@
 name: Check RSS Feeds
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'feeds.opml'           # 只有更新订阅源时才触发检测
+      - 'README.md'
   schedule:
-    # 每小时运行一次（测试用）
-    - cron: '0 * * * *'
+    # 每天早上 10 点 (北京时间 UTC+8，即 UTC 2 点) 运行
+    - cron: '0 2 * * *'
   workflow_dispatch: # 允许手动触发
 
 jobs:
