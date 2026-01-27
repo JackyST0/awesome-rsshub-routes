@@ -105,6 +105,16 @@ jobs:
             echo "✅ 检测完成: $VALID/$TOTAL 个链接可用"
           fi
 
+      - name: Commit feed status
+        run: |
+          if [ -f feed-status.json ]; then
+            git config --local user.email "action@github.com"
+            git config --local user.name "GitHub Action"
+            git add feed-status.json
+            git diff --staged --quiet || git commit -m "chore: 更新订阅源检测状态"
+            git push
+          fi
+
       - name: Prepare email content
         id: email
         run: |
