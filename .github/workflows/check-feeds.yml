@@ -4,8 +4,8 @@ on:
   push:
     branches: [main]
   schedule:
-    # 每天早上 10 点 (北京时间 UTC+8，即 UTC 2 点) 运行
-    - cron: '0 2 * * *'
+    # 每 5 分钟运行一次（测试用）
+    - cron: '*/5 * * * *'
   workflow_dispatch: # 允许手动触发
 
 jobs:
