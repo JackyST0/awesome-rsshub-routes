@@ -93,17 +93,17 @@
 
     <!-- Search & Filter -->
     <div class="bg-white rounded-xl p-4 shadow-sm mb-6">
-      <div class="flex flex-col sm:flex-row gap-4">
-        <div class="relative flex-1">
-          <i class="fas fa-search absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"></i>
-          <input type="text" id="search-input" placeholder="搜索订阅源..." 
-                 class="w-full pl-10 pr-4 py-2 border border-gray-200 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent outline-none">
-        </div>
-        <div class="flex gap-2 overflow-x-auto pb-2 sm:pb-0" id="category-filters">
-          <button class="category-btn active px-4 py-2 rounded-lg bg-gray-100 text-sm whitespace-nowrap transition" data-category="all">
-            全部
-          </button>
-        </div>
+      <!-- Search -->
+      <div class="relative mb-4">
+        <i class="fas fa-search absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"></i>
+        <input type="text" id="search-input" placeholder="搜索订阅源名称或链接..." 
+               class="w-full pl-10 pr-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent outline-none text-gray-900 bg-white text-base">
+      </div>
+      <!-- Category Filters -->
+      <div class="flex gap-2 overflow-x-auto pb-2" id="category-filters">
+        <button class="category-btn active px-4 py-2 rounded-lg bg-gray-100 text-sm whitespace-nowrap transition" data-category="all" onclick="filterByCategory('all')">
+          全部
+        </button>
       </div>
     </div>
 
