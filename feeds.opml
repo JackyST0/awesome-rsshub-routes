@@ -37,7 +37,6 @@
     <!-- 新闻资讯 -->
     <outline text="📰 新闻资讯" title="新闻资讯">
       <outline type="rss" text="IT之家" title="IT之家" xmlUrl="https://www.ithome.com/rss/"/>
-      <outline type="rss" text="知乎日报" title="知乎日报" xmlUrl="https://feeds.feedburner.com/zhihu-daily"/>
     </outline>
 
     <!-- 科技媒体 -->
