@@ -52,6 +52,7 @@ This repository is designed as a usable feed directory rather than a traditional
 - [Recommended RSS Readers](#recommended-rss-readers)
 
 ## Official RSS Feeds
+- [n8n JSON Feed to Telegram](https://github.com/DeusAcc/n8n-json-feed-to-telegram) - Free n8n workflow that polls a JSON/RSS feed and alerts on Telegram only for new entries passing a filter, no external database
 
 These websites have built-in RSS support. Subscribe directly without RSSHub.
 
