@@ -570,7 +570,7 @@
 
 如果这个项目对你有帮助，请给个 Star ⭐ 支持一下！
 
-[![Star History Chart](https://api.star-history.com/svg?repos=JackyST0/awesome-rsshub-routes&type=Date)](https://star-history.com/#JackyST0/awesome-rsshub-routes&Date)
+[![Star History Chart](https://star-history.dera.page/svg?repos=JackyST0/awesome-rsshub-routes&type=Date)](https://star-history.dera.page/#JackyST0/awesome-rsshub-routes&Date)
 
 ---
 
