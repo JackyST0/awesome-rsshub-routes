@@ -123,7 +123,7 @@
 
 | 名称 | 订阅地址 | 说明 |
 |------|----------|------|
-| 最热主题 | `https://www.v2ex.com/feed/tab/hot.xml` | 今日热门 |
+| 全站最新 | `https://www.v2ex.com/index.xml` | 全站新主题 |
 | 最新主题 | `https://www.v2ex.com/feed/tab/all.xml` | 全站最新 |
 | 技术节点 | `https://www.v2ex.com/feed/tab/tech.xml` | 技术讨论 |
 | 创意节点 | `https://www.v2ex.com/feed/tab/creative.xml` | 创意分享 |

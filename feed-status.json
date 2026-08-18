@@ -1,5 +1,5 @@
 {
-  "checkTime": "2026-08-18 10:19:09 (北京时间)",
+  "checkTime": "2026-08-18 10:52:11 (北京时间)",
   "total": 107,
   "valid": 98,
   "limited": 9,
@@ -227,14 +227,14 @@
       "finalUrl": "https://linux.do/posts.rss"
     },
     {
-      "name": "V2EX 最热",
-      "url": "https://www.v2ex.com/feed/tab/hot.xml",
+      "name": "V2EX 全站最新",
+      "url": "https://www.v2ex.com/index.xml",
       "status": "limited",
       "valid": false,
       "limited": true,
       "statusCode": null,
       "error": "ETIMEDOUT",
-      "finalUrl": "https://www.v2ex.com/feed/tab/hot.xml"
+      "finalUrl": "https://www.v2ex.com/index.xml"
     },
     {
       "name": "V2EX 最新",
@@ -834,7 +834,7 @@
       "limited": false,
       "statusCode": 200,
       "error": null,
-      "finalUrl": "https://aws.amazon.com/blogs/aws/feed/"
+      "finalUrl": "https://aws.amazon.com/cn/blogs/aws/feed/"
     },
     {
       "name": "Cloudflare Blog",
@@ -1014,7 +1014,7 @@
       "limited": false,
       "statusCode": 200,
       "error": null,
-      "finalUrl": "https://www.nature.com/nature.rss?error=cookies_not_supported&code=c4706bf3-b718-4d23-9003-0c2c79ff3c00"
+      "finalUrl": "https://www.nature.com/nature.rss"
     },
     {
       "name": "arXiv 计算机视觉",

@@ -34,7 +34,7 @@
       <outline type="rss" text="LinuxDo 最新话题" title="LinuxDo 最新话题" xmlUrl="https://linux.do/latest.rss"/>
       <outline type="rss" text="LinuxDo 热门话题" title="LinuxDo 热门话题" xmlUrl="https://linux.do/top.rss"/>
       <outline type="rss" text="LinuxDo 最新帖子" title="LinuxDo 最新帖子" xmlUrl="https://linux.do/posts.rss"/>
-      <outline type="rss" text="V2EX 最热" title="V2EX 最热" xmlUrl="https://www.v2ex.com/feed/tab/hot.xml"/>
+      <outline type="rss" text="V2EX 全站最新" title="V2EX 全站最新" xmlUrl="https://www.v2ex.com/index.xml"/>
       <outline type="rss" text="V2EX 最新" title="V2EX 最新" xmlUrl="https://www.v2ex.com/feed/tab/all.xml"/>
       <outline type="rss" text="V2EX 技术" title="V2EX 技术" xmlUrl="https://www.v2ex.com/feed/tab/tech.xml"/>
       <outline type="rss" text="V2EX 创意" title="V2EX 创意" xmlUrl="https://www.v2ex.com/feed/tab/creative.xml"/>

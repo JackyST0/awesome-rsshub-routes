@@ -116,7 +116,7 @@ Built on Discourse with native RSS support.
 
 | Name          | Feed URL                                     | Description      |
 | ------------- | -------------------------------------------- | ---------------- |
-| Hot Topics    | `https://www.v2ex.com/feed/tab/hot.xml`      | Today's hot      |
+| Site-wide Latest | `https://www.v2ex.com/index.xml`          | All new topics   |
 | Latest Topics | `https://www.v2ex.com/feed/tab/all.xml`      | All latest       |
 | Tech Node     | `https://www.v2ex.com/feed/tab/tech.xml`     | Tech discussions |
 | Creative Node | `https://www.v2ex.com/feed/tab/creative.xml` | Creative sharing |
