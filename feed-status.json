@@ -89,11 +89,11 @@
     {
       "name": "Hacker News OpenClaw",
       "url": "https://hnrss.org/newest?q=OpenClaw",
-      "status": "valid",
-      "valid": true,
-      "limited": false,
-      "statusCode": 200,
-      "error": null,
+      "status": "limited",
+      "valid": false,
+      "limited": true,
+      "statusCode": 502,
+      "error": "HTTP 502",
       "finalUrl": "https://hnrss.org/newest?q=OpenClaw"
     },
     {
@@ -202,8 +202,8 @@
       "status": "limited",
       "valid": false,
       "limited": true,
-      "statusCode": null,
-      "error": "ETIMEDOUT",
+      "statusCode": 403,
+      "error": "HTTP 403",
       "finalUrl": "https://linux.do/latest.rss"
     },
     {
@@ -212,8 +212,8 @@
       "status": "limited",
       "valid": false,
       "limited": true,
-      "statusCode": null,
-      "error": "ETIMEDOUT",
+      "statusCode": 403,
+      "error": "HTTP 403",
       "finalUrl": "https://linux.do/top.rss"
     },
     {
@@ -222,8 +222,8 @@
       "status": "limited",
       "valid": false,
       "limited": true,
-      "statusCode": null,
-      "error": "ETIMEDOUT",
+      "statusCode": 403,
+      "error": "HTTP 403",
       "finalUrl": "https://linux.do/posts.rss"
     },
     {
@@ -239,51 +239,51 @@
     {
       "name": "V2EX 最新",
       "url": "https://www.v2ex.com/feed/tab/all.xml",
-      "status": "limited",
-      "valid": false,
-      "limited": true,
-      "statusCode": null,
-      "error": "ETIMEDOUT",
+      "status": "valid",
+      "valid": true,
+      "limited": false,
+      "statusCode": 200,
+      "error": null,
       "finalUrl": "https://www.v2ex.com/feed/tab/all.xml"
     },
     {
       "name": "V2EX 技术",
       "url": "https://www.v2ex.com/feed/tab/tech.xml",
-      "status": "limited",
-      "valid": false,
-      "limited": true,
-      "statusCode": null,
-      "error": "ETIMEDOUT",
+      "status": "valid",
+      "valid": true,
+      "limited": false,
+      "statusCode": 200,
+      "error": null,
       "finalUrl": "https://www.v2ex.com/feed/tab/tech.xml"
     },
     {
       "name": "V2EX 创意",
       "url": "https://www.v2ex.com/feed/tab/creative.xml",
-      "status": "limited",
-      "valid": false,
-      "limited": true,
-      "statusCode": null,
-      "error": "ETIMEDOUT",
+      "status": "valid",
+      "valid": true,
+      "limited": false,
+      "statusCode": 200,
+      "error": null,
       "finalUrl": "https://www.v2ex.com/feed/tab/creative.xml"
     },
     {
       "name": "V2EX 好玩",
       "url": "https://www.v2ex.com/feed/tab/play.xml",
-      "status": "limited",
-      "valid": false,
-      "limited": true,
-      "statusCode": null,
-      "error": "ETIMEDOUT",
+      "status": "valid",
+      "valid": true,
+      "limited": false,
+      "statusCode": 200,
+      "error": null,
       "finalUrl": "https://www.v2ex.com/feed/tab/play.xml"
     },
     {
       "name": "NodeSeek 最新话题",
       "url": "https://rss.nodeseek.com/",
-      "status": "limited",
-      "valid": false,
-      "limited": true,
-      "statusCode": null,
-      "error": "ETIMEDOUT",
+      "status": "valid",
+      "valid": true,
+      "limited": false,
+      "statusCode": 200,
+      "error": null,
       "finalUrl": "https://rss.nodeseek.com/"
     },
     {
@@ -499,11 +499,11 @@
     {
       "name": "Krebs on Security",
       "url": "https://krebsonsecurity.com/feed/",
-      "status": "valid",
-      "valid": true,
-      "limited": false,
-      "statusCode": 200,
-      "error": null,
+      "status": "limited",
+      "valid": false,
+      "limited": true,
+      "statusCode": 403,
+      "error": "HTTP 403",
       "finalUrl": "https://krebsonsecurity.com/feed/"
     },
     {
@@ -549,11 +549,11 @@
     {
       "name": "FreeBuf",
       "url": "https://www.freebuf.com/feed",
-      "status": "valid",
-      "valid": true,
-      "limited": false,
-      "statusCode": 200,
-      "error": null,
+      "status": "limited",
+      "valid": false,
+      "limited": true,
+      "statusCode": 405,
+      "error": "HTTP 405",
       "finalUrl": "https://www.freebuf.com/feed"
     },
     {
@@ -599,11 +599,11 @@
     {
       "name": "CSS-Tricks",
       "url": "https://css-tricks.com/feed/",
-      "status": "valid",
-      "valid": true,
-      "limited": false,
-      "statusCode": 200,
-      "error": null,
+      "status": "limited",
+      "valid": false,
+      "limited": true,
+      "statusCode": 415,
+      "error": "HTTP 415",
       "finalUrl": "https://css-tricks.com/feed/"
     },
     {
