@@ -14,16 +14,13 @@
       <outline type="rss" text="arXiv AI" title="arXiv AI" xmlUrl="https://rss.arxiv.org/rss/cs.AI"/>
       <outline type="rss" text="arXiv 机器学习" title="arXiv 机器学习" xmlUrl="https://rss.arxiv.org/rss/cs.LG"/>
       <outline type="rss" text="arXiv NLP" title="arXiv NLP" xmlUrl="https://rss.arxiv.org/rss/cs.CL"/>
-      <outline type="rss" text="arXiv 计算机视觉" title="arXiv 计算机视觉" xmlUrl="https://rss.arxiv.org/rss/cs.CV"/>
       <outline type="rss" text="Hacker News AI" title="Hacker News AI" xmlUrl="https://hnrss.org/newest?q=AI"/>
       <outline type="rss" text="Hacker News LLM" title="Hacker News LLM" xmlUrl="https://hnrss.org/newest?q=LLM"/>
       <outline type="rss" text="Hacker News OpenClaw" title="Hacker News OpenClaw" xmlUrl="https://hnrss.org/newest?q=OpenClaw"/>
       <outline type="rss" text="Google Research Blog" title="Google Research Blog" xmlUrl="https://research.google/blog/rss/"/>
       <outline type="rss" text="Hugging Face 博客" title="Hugging Face 博客" xmlUrl="https://huggingface.co/blog/feed.xml"/>
-      <outline type="rss" text="Stability AI" title="Stability AI" xmlUrl="https://stability.ai/news?format=rss"/>
       <outline type="rss" text="OpenClaw Releases" title="OpenClaw Releases" xmlUrl="https://github.com/openclaw/openclaw/releases.atom"/>
       <outline type="rss" text="OpenClaw Commits" title="OpenClaw Commits" xmlUrl="https://github.com/openclaw/openclaw/commits/main.atom"/>
-      <outline type="rss" text="机器之心" title="机器之心" xmlUrl="https://www.jiqizhixin.com/rss"/>
       <outline type="rss" text="Simon Willison's Blog" title="Simon Willison's Blog" xmlUrl="https://simonwillison.net/atom/everything/"/>
       <outline type="rss" text="OpenAI Codex Releases" title="OpenAI Codex Releases" xmlUrl="https://github.com/openai/codex/releases.atom"/>
       <outline type="rss" text="Claude Code Releases" title="Claude Code Releases" xmlUrl="https://github.com/anthropics/claude-code/releases.atom"/>
@@ -36,11 +33,16 @@
     <outline text="💻 技术社区" title="技术社区">
       <outline type="rss" text="LinuxDo 最新话题" title="LinuxDo 最新话题" xmlUrl="https://linux.do/latest.rss"/>
       <outline type="rss" text="LinuxDo 热门话题" title="LinuxDo 热门话题" xmlUrl="https://linux.do/top.rss"/>
+      <outline type="rss" text="LinuxDo 最新帖子" title="LinuxDo 最新帖子" xmlUrl="https://linux.do/posts.rss"/>
       <outline type="rss" text="V2EX 最热" title="V2EX 最热" xmlUrl="https://www.v2ex.com/feed/tab/hot.xml"/>
+      <outline type="rss" text="V2EX 最新" title="V2EX 最新" xmlUrl="https://www.v2ex.com/feed/tab/all.xml"/>
       <outline type="rss" text="V2EX 技术" title="V2EX 技术" xmlUrl="https://www.v2ex.com/feed/tab/tech.xml"/>
+      <outline type="rss" text="V2EX 创意" title="V2EX 创意" xmlUrl="https://www.v2ex.com/feed/tab/creative.xml"/>
+      <outline type="rss" text="V2EX 好玩" title="V2EX 好玩" xmlUrl="https://www.v2ex.com/feed/tab/play.xml"/>
       <outline type="rss" text="NodeSeek 最新话题" title="NodeSeek 最新话题" xmlUrl="https://rss.nodeseek.com/"/>
       <outline type="rss" text="奶昔论坛最新话题" title="奶昔论坛最新话题" xmlUrl="https://forum.naixi.net/forum.php?mod=rss"/>
       <outline type="rss" text="Hacker News 首页" title="Hacker News 首页" xmlUrl="https://hnrss.org/frontpage"/>
+      <outline type="rss" text="Hacker News 最新" title="Hacker News 最新" xmlUrl="https://hnrss.org/newest"/>
       <outline type="rss" text="Hacker News 最佳" title="Hacker News 最佳" xmlUrl="https://hnrss.org/best"/>
       <outline type="rss" text="Hacker News Ask" title="Hacker News Ask" xmlUrl="https://hnrss.org/ask"/>
       <outline type="rss" text="Hacker News Show" title="Hacker News Show" xmlUrl="https://hnrss.org/show"/>
@@ -93,7 +95,7 @@
       <outline type="rss" text="Tailwind CSS Blog" title="Tailwind CSS Blog" xmlUrl="https://tailwindcss.com/feeds/feed.xml"/>
       <outline type="rss" text="Dev.to" title="Dev.to" xmlUrl="https://dev.to/feed"/>
       <outline type="rss" text="Chrome Developer Blog" title="Chrome Developer Blog" xmlUrl="https://developer.chrome.com/blog/feed.xml"/>
-      <outline type="rss" text="Dribbble Popular" title="Dribbble Popular" xmlUrl="https://dribbble.com/shots/popular.rss"/>
+      <outline type="rss" text="Dribbble Stories" title="Dribbble Stories" xmlUrl="https://dribbble.com/stories.rss"/>
       <outline type="rss" text="Product Hunt" title="Product Hunt" xmlUrl="https://www.producthunt.com/feed"/>
     </outline>
 
@@ -105,7 +107,6 @@
       <outline type="rss" text="Go Blog" title="Go Blog" xmlUrl="https://go.dev/blog/feed.atom"/>
       <outline type="rss" text="Python Blog" title="Python Blog" xmlUrl="https://blog.python.org/feeds/posts/default"/>
       <outline type="rss" text="Node.js Blog" title="Node.js Blog" xmlUrl="https://nodejs.org/en/feed/blog.xml"/>
-      <outline type="rss" text="Deno Blog" title="Deno Blog" xmlUrl="https://deno.com/blog/feed.xml"/>
       <outline type="rss" text="TypeScript Blog" title="TypeScript Blog" xmlUrl="https://devblogs.microsoft.com/typescript/feed/"/>
       <outline type="rss" text="Swift Blog" title="Swift Blog" xmlUrl="https://www.swift.org/atom.xml"/>
       <outline type="rss" text="Kotlin Blog" title="Kotlin Blog" xmlUrl="https://blog.jetbrains.com/kotlin/feed/"/>
@@ -148,6 +149,7 @@
     <!-- 学术论文 -->
     <outline text="📚 学术论文" title="学术论文">
       <outline type="rss" text="Nature" title="Nature" xmlUrl="https://www.nature.com/nature.rss"/>
+      <outline type="rss" text="arXiv 计算机视觉" title="arXiv 计算机视觉" xmlUrl="https://rss.arxiv.org/rss/cs.CV"/>
     </outline>
 
     <!-- RSS 工具更新 -->

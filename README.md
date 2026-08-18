@@ -12,7 +12,7 @@
 
 > A practical directory of official RSS feeds and RSSHub routes, with online browsing, OPML import, and feed health checks.
 
-🌐 **Browse Online**: **https://jackyst0.github.io/awesome-rsshub-routes/** - Search, filter by category, and copy with one click
+🌐 **Browse Online**: **https://jackyst0.github.io/awesome-rsshub-routes/** - Search, filter, and copy the official feeds available in `feeds.opml`
 📥 **One-Click Import**: Download [feeds.opml](./feeds.opml) and import it into your RSS reader
 ✅ **Feed Health**: Automated checks track feed availability and surface broken links in [GitHub Issues](https://github.com/JackyST0/awesome-rsshub-routes/issues)
 
@@ -84,10 +84,8 @@ AI company blogs, research papers, tools and products.
 | Name              | Feed URL                               | Description              |
 | ----------------- | -------------------------------------- | ------------------------ |
 | Hugging Face Blog    | `https://huggingface.co/blog/feed.xml`         | Open-source AI community          |
-| Stability AI         | `https://stability.ai/news?format=rss`         | Stable Diffusion                   |
 | OpenClaw Releases    | `https://github.com/openclaw/openclaw/releases.atom` | OpenClaw release updates      |
 | OpenClaw Commits     | `https://github.com/openclaw/openclaw/commits/main.atom` | Main branch activity         |
-| Synced               | `https://www.jiqizhixin.com/rss`               | Top Chinese AI media               |
 | Simon Willison's Blog | `https://simonwillison.net/atom/everything/`  | LLM insights, Django co-creator    |
 
 #### AI Coding and Agent Tools
@@ -235,7 +233,7 @@ Frontend development, UI/UX design resources.
 | Tailwind CSS Blog     | `https://tailwindcss.com/feeds/feed.xml`     | Tailwind CSS updates      |
 | Dev.to                | `https://dev.to/feed`                        | Developer community       |
 | Chrome Developer Blog | `https://developer.chrome.com/blog/feed.xml` | Chrome dev blog           |
-| Dribbble Popular      | `https://dribbble.com/shots/popular.rss`     | Top design shots          |
+| Dribbble Stories      | `https://dribbble.com/stories.rss`           | Design stories and updates |
 | Product Hunt          | `https://www.producthunt.com/feed`           | New product discovery     |
 
 ### Programming Language Blogs
@@ -250,7 +248,6 @@ Official blogs for programming languages and frameworks.
 | Go Blog         | `https://go.dev/blog/feed.atom`                   | Go official blog         |
 | Python Blog     | `https://blog.python.org/feeds/posts/default`     | Python official blog     |
 | Node.js Blog    | `https://nodejs.org/en/feed/blog.xml`             | Node.js official blog    |
-| Deno Blog       | `https://deno.com/blog/feed.xml`                  | Deno official blog       |
 | TypeScript Blog | `https://devblogs.microsoft.com/typescript/feed/` | TypeScript official blog |
 | Swift Blog      | `https://www.swift.org/atom.xml`                  | Swift official blog      |
 | Kotlin Blog     | `https://blog.jetbrains.com/kotlin/feed/`         | Kotlin official blog     |

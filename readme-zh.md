@@ -12,7 +12,7 @@
 
 > 实用的 RSS 订阅源目录，收录官方 RSS 与 RSSHub 路由，支持在线浏览、OPML 导入和可用性检查。
 
-🌐 **在线浏览**：**https://jackyst0.github.io/awesome-rsshub-routes/** - 支持分类筛选、搜索、一键复制
+🌐 **在线浏览**：**https://jackyst0.github.io/awesome-rsshub-routes/** - 浏览 `feeds.opml` 中可直接导入的官方订阅源，支持分类筛选、搜索、一键复制
 📥 **一键导入**：下载 [feeds.opml](./feeds.opml) 文件，导入到你的 RSS 阅读器
 ✅ **健康检查**：定期检测订阅源可用性，并在 [GitHub Issues](https://github.com/JackyST0/awesome-rsshub-routes/issues) 汇总状态
 
@@ -87,10 +87,8 @@
 | 名称 | 订阅地址 | 说明 |
 |------|----------|------|
 | Hugging Face 博客 | `https://huggingface.co/blog/feed.xml` | 开源 AI 社区 |
-| Stability AI | `https://stability.ai/news?format=rss` | Stable Diffusion |
 | OpenClaw Releases | `https://github.com/openclaw/openclaw/releases.atom` | OpenClaw 版本发布 |
 | OpenClaw Commits | `https://github.com/openclaw/openclaw/commits/main.atom` | 主分支开发动态 |
-| 机器之心 | `https://www.jiqizhixin.com/rss` | 国内顶尖 AI 媒体 |
 | Simon Willison 博客 | `https://simonwillison.net/atom/everything/` | LLM 洞察，Django 联合创始人 |
 
 #### AI 编程 & Agent 工具
@@ -263,7 +261,7 @@
 
 | 名称 | 订阅地址 | 说明 |
 |------|----------|------|
-| Dribbble Popular | `https://dribbble.com/shots/popular.rss` | 设计作品精选 |
+| Dribbble Stories | `https://dribbble.com/stories.rss` | 设计故事与动态 |
 | Product Hunt | `https://www.producthunt.com/feed` | 新产品发现 |
 
 ---
@@ -280,7 +278,6 @@
 | Go Blog | `https://go.dev/blog/feed.atom` | Go 官方博客 |
 | Python Blog | `https://blog.python.org/feeds/posts/default` | Python 官方博客 |
 | Node.js Blog | `https://nodejs.org/en/feed/blog.xml` | Node.js 官方博客 |
-| Deno Blog | `https://deno.com/blog/feed.xml` | Deno 官方博客 |
 | TypeScript Blog | `https://devblogs.microsoft.com/typescript/feed/` | TypeScript 官方博客 |
 | Swift Blog | `https://www.swift.org/atom.xml` | Swift 官方博客 |
 | Kotlin Blog | `https://blog.jetbrains.com/kotlin/feed/` | Kotlin 官方博客 |
@@ -543,9 +540,7 @@
 
 欢迎提交 PR 添加更多实用订阅源！
 
-1. Fork 本仓库
-2. 添加订阅源信息
-3. 提交 Pull Request
+请阅读完整的 [贡献指南](./contributing.md)，其中说明了 README、中文 README 与 OPML 的同步规则，以及本地验证命令。
 
 ---
 

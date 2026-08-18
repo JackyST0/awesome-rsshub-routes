@@ -1,10 +1,10 @@
 {
-  "checkTime": "2026-08-17 10:57:28 (北京时间)",
-  "total": 98,
-  "valid": 95,
-  "limited": 3,
+  "checkTime": "2026-08-18 10:19:09 (北京时间)",
+  "total": 107,
+  "valid": 98,
+  "limited": 9,
   "invalid": 0,
-  "successRate": "96.9%",
+  "successRate": "91.6%",
   "feeds": [
     {
       "name": "OpenAI 博客",
@@ -13,7 +13,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://openai.com/news/rss.xml"
     },
     {
       "name": "Google DeepMind",
@@ -22,7 +23,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://deepmind.google/blog/rss.xml"
     },
     {
       "name": "Google AI Blog",
@@ -30,8 +32,9 @@
       "status": "valid",
       "valid": true,
       "limited": false,
-      "statusCode": 301,
-      "error": null
+      "statusCode": 200,
+      "error": null,
+      "finalUrl": "https://blog.google/innovation-and-ai/technology/ai/rss/"
     },
     {
       "name": "arXiv AI",
@@ -40,7 +43,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://rss.arxiv.org/rss/cs.AI"
     },
     {
       "name": "arXiv 机器学习",
@@ -49,7 +53,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://rss.arxiv.org/rss/cs.LG"
     },
     {
       "name": "arXiv NLP",
@@ -58,16 +63,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
-    },
-    {
-      "name": "arXiv 计算机视觉",
-      "url": "https://rss.arxiv.org/rss/cs.CV",
-      "status": "valid",
-      "valid": true,
-      "limited": false,
-      "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://rss.arxiv.org/rss/cs.CL"
     },
     {
       "name": "Hacker News AI",
@@ -76,7 +73,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://hnrss.org/newest?q=AI"
     },
     {
       "name": "Hacker News LLM",
@@ -85,7 +83,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://hnrss.org/newest?q=LLM"
     },
     {
       "name": "Hacker News OpenClaw",
@@ -94,7 +93,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://hnrss.org/newest?q=OpenClaw"
     },
     {
       "name": "Google Research Blog",
@@ -103,7 +103,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://research.google/blog/rss/"
     },
     {
       "name": "Hugging Face 博客",
@@ -112,16 +113,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
-    },
-    {
-      "name": "Stability AI",
-      "url": "https://stability.ai/news?format=rss",
-      "status": "valid",
-      "valid": true,
-      "limited": false,
-      "statusCode": 301,
-      "error": null
+      "error": null,
+      "finalUrl": "https://huggingface.co/blog/feed.xml"
     },
     {
       "name": "OpenClaw Releases",
@@ -130,7 +123,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://github.com/openclaw/openclaw/releases.atom"
     },
     {
       "name": "OpenClaw Commits",
@@ -139,16 +133,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
-    },
-    {
-      "name": "机器之心",
-      "url": "https://www.jiqizhixin.com/rss",
-      "status": "valid",
-      "valid": true,
-      "limited": false,
-      "statusCode": 302,
-      "error": null
+      "error": null,
+      "finalUrl": "https://github.com/openclaw/openclaw/commits/main.atom"
     },
     {
       "name": "Simon Willison's Blog",
@@ -157,7 +143,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://simonwillison.net/atom/everything/"
     },
     {
       "name": "OpenAI Codex Releases",
@@ -166,7 +153,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://github.com/openai/codex/releases.atom"
     },
     {
       "name": "Claude Code Releases",
@@ -175,7 +163,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://github.com/anthropics/claude-code/releases.atom"
     },
     {
       "name": "Gemini CLI Releases",
@@ -184,7 +173,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://github.com/google-gemini/gemini-cli/releases.atom"
     },
     {
       "name": "MCP Specification Releases",
@@ -192,8 +182,9 @@
       "status": "valid",
       "valid": true,
       "limited": false,
-      "statusCode": 301,
-      "error": null
+      "statusCode": 200,
+      "error": null,
+      "finalUrl": "https://github.com/modelcontextprotocol/modelcontextprotocol/releases.atom"
     },
     {
       "name": "MCP Servers Releases",
@@ -202,7 +193,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://github.com/modelcontextprotocol/servers/releases.atom"
     },
     {
       "name": "LinuxDo 最新话题",
@@ -210,8 +202,9 @@
       "status": "limited",
       "valid": false,
       "limited": true,
-      "statusCode": 403,
-      "error": "HTTP 403"
+      "statusCode": null,
+      "error": "ETIMEDOUT",
+      "finalUrl": "https://linux.do/latest.rss"
     },
     {
       "name": "LinuxDo 热门话题",
@@ -219,35 +212,79 @@
       "status": "limited",
       "valid": false,
       "limited": true,
-      "statusCode": 403,
-      "error": "HTTP 403"
+      "statusCode": null,
+      "error": "ETIMEDOUT",
+      "finalUrl": "https://linux.do/top.rss"
+    },
+    {
+      "name": "LinuxDo 最新帖子",
+      "url": "https://linux.do/posts.rss",
+      "status": "limited",
+      "valid": false,
+      "limited": true,
+      "statusCode": null,
+      "error": "ETIMEDOUT",
+      "finalUrl": "https://linux.do/posts.rss"
     },
     {
       "name": "V2EX 最热",
       "url": "https://www.v2ex.com/feed/tab/hot.xml",
-      "status": "valid",
-      "valid": true,
-      "limited": false,
-      "statusCode": 200,
-      "error": null
+      "status": "limited",
+      "valid": false,
+      "limited": true,
+      "statusCode": null,
+      "error": "ETIMEDOUT",
+      "finalUrl": "https://www.v2ex.com/feed/tab/hot.xml"
+    },
+    {
+      "name": "V2EX 最新",
+      "url": "https://www.v2ex.com/feed/tab/all.xml",
+      "status": "limited",
+      "valid": false,
+      "limited": true,
+      "statusCode": null,
+      "error": "ETIMEDOUT",
+      "finalUrl": "https://www.v2ex.com/feed/tab/all.xml"
     },
     {
       "name": "V2EX 技术",
       "url": "https://www.v2ex.com/feed/tab/tech.xml",
-      "status": "valid",
-      "valid": true,
-      "limited": false,
-      "statusCode": 200,
-      "error": null
+      "status": "limited",
+      "valid": false,
+      "limited": true,
+      "statusCode": null,
+      "error": "ETIMEDOUT",
+      "finalUrl": "https://www.v2ex.com/feed/tab/tech.xml"
+    },
+    {
+      "name": "V2EX 创意",
+      "url": "https://www.v2ex.com/feed/tab/creative.xml",
+      "status": "limited",
+      "valid": false,
+      "limited": true,
+      "statusCode": null,
+      "error": "ETIMEDOUT",
+      "finalUrl": "https://www.v2ex.com/feed/tab/creative.xml"
+    },
+    {
+      "name": "V2EX 好玩",
+      "url": "https://www.v2ex.com/feed/tab/play.xml",
+      "status": "limited",
+      "valid": false,
+      "limited": true,
+      "statusCode": null,
+      "error": "ETIMEDOUT",
+      "finalUrl": "https://www.v2ex.com/feed/tab/play.xml"
     },
     {
       "name": "NodeSeek 最新话题",
       "url": "https://rss.nodeseek.com/",
-      "status": "valid",
-      "valid": true,
-      "limited": false,
-      "statusCode": 200,
-      "error": null
+      "status": "limited",
+      "valid": false,
+      "limited": true,
+      "statusCode": null,
+      "error": "ETIMEDOUT",
+      "finalUrl": "https://rss.nodeseek.com/"
     },
     {
       "name": "奶昔论坛最新话题",
@@ -256,7 +293,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://forum.naixi.net/forum.php?mod=rss"
     },
     {
       "name": "Hacker News 首页",
@@ -265,7 +303,18 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://hnrss.org/frontpage"
+    },
+    {
+      "name": "Hacker News 最新",
+      "url": "https://hnrss.org/newest",
+      "status": "valid",
+      "valid": true,
+      "limited": false,
+      "statusCode": 200,
+      "error": null,
+      "finalUrl": "https://hnrss.org/newest"
     },
     {
       "name": "Hacker News 最佳",
@@ -274,7 +323,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://hnrss.org/best"
     },
     {
       "name": "Hacker News Ask",
@@ -283,7 +333,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://hnrss.org/ask"
     },
     {
       "name": "Hacker News Show",
@@ -292,7 +343,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://hnrss.org/show"
     },
     {
       "name": "少数派",
@@ -301,7 +353,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://sspai.com/feed"
     },
     {
       "name": "阮一峰的网络日志",
@@ -310,7 +363,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://www.ruanyifeng.com/blog/atom.xml"
     },
     {
       "name": "IT之家",
@@ -319,7 +373,78 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://www.ithome.com/rss/"
+    },
+    {
+      "name": "人民日报时政新闻",
+      "url": "http://www.people.com.cn/rss/politics.xml",
+      "status": "valid",
+      "valid": true,
+      "limited": false,
+      "statusCode": 200,
+      "error": null,
+      "finalUrl": "http://www.people.com.cn/rss/politics.xml"
+    },
+    {
+      "name": "人民日报社会新闻",
+      "url": "http://www.people.com.cn/rss/society.xml",
+      "status": "valid",
+      "valid": true,
+      "limited": false,
+      "statusCode": 200,
+      "error": null,
+      "finalUrl": "http://www.people.com.cn/rss/society.xml"
+    },
+    {
+      "name": "人民日报法治新闻",
+      "url": "http://www.people.com.cn/rss/legal.xml",
+      "status": "valid",
+      "valid": true,
+      "limited": false,
+      "statusCode": 200,
+      "error": null,
+      "finalUrl": "http://www.people.com.cn/rss/legal.xml"
+    },
+    {
+      "name": "人民日报国际新闻",
+      "url": "http://www.people.com.cn/rss/world.xml",
+      "status": "valid",
+      "valid": true,
+      "limited": false,
+      "statusCode": 200,
+      "error": null,
+      "finalUrl": "http://www.people.com.cn/rss/world.xml"
+    },
+    {
+      "name": "人民日报台港澳新闻",
+      "url": "http://www.people.com.cn/rss/haixia.xml",
+      "status": "valid",
+      "valid": true,
+      "limited": false,
+      "statusCode": 200,
+      "error": null,
+      "finalUrl": "http://www.people.com.cn/rss/haixia.xml"
+    },
+    {
+      "name": "人民日报军事新闻",
+      "url": "http://www.people.com.cn/rss/military.xml",
+      "status": "valid",
+      "valid": true,
+      "limited": false,
+      "statusCode": 200,
+      "error": null,
+      "finalUrl": "http://www.people.com.cn/rss/military.xml"
+    },
+    {
+      "name": "人民日报全部新闻",
+      "url": "http://www.people.com.cn/rss/ywkx.xml",
+      "status": "valid",
+      "valid": true,
+      "limited": false,
+      "statusCode": 200,
+      "error": null,
+      "finalUrl": "http://www.people.com.cn/rss/ywkx.xml"
     },
     {
       "name": "TechCrunch",
@@ -328,7 +453,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://techcrunch.com/feed/"
     },
     {
       "name": "The Verge",
@@ -337,7 +463,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://www.theverge.com/rss/index.xml"
     },
     {
       "name": "Wired",
@@ -346,7 +473,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://www.wired.com/feed/rss"
     },
     {
       "name": "Ars Technica",
@@ -355,7 +483,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://feeds.arstechnica.com/arstechnica/index"
     },
     {
       "name": "MIT Technology Review",
@@ -364,7 +493,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://www.technologyreview.com/feed/"
     },
     {
       "name": "Krebs on Security",
@@ -373,7 +503,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://krebsonsecurity.com/feed/"
     },
     {
       "name": "The Hacker News",
@@ -382,7 +513,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://feeds.feedburner.com/TheHackersNews"
     },
     {
       "name": "Schneier on Security",
@@ -391,7 +523,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://www.schneier.com/feed/"
     },
     {
       "name": "CISA News",
@@ -400,7 +533,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://www.cisa.gov/news.xml"
     },
     {
       "name": "Google Security Blog",
@@ -408,17 +542,19 @@
       "status": "valid",
       "valid": true,
       "limited": false,
-      "statusCode": 302,
-      "error": null
+      "statusCode": 200,
+      "error": null,
+      "finalUrl": "http://feeds.feedburner.com/GoogleOnlineSecurityBlog"
     },
     {
       "name": "FreeBuf",
       "url": "https://www.freebuf.com/feed",
-      "status": "limited",
-      "valid": false,
-      "limited": true,
-      "statusCode": 405,
-      "error": "HTTP 405"
+      "status": "valid",
+      "valid": true,
+      "limited": false,
+      "statusCode": 200,
+      "error": null,
+      "finalUrl": "https://www.freebuf.com/feed"
     },
     {
       "name": "安全客",
@@ -427,7 +563,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://api.anquanke.com/data/v1/rss"
     },
     {
       "name": "Smashing Magazine",
@@ -436,7 +573,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://www.smashingmagazine.com/feed/"
     },
     {
       "name": "A List Apart",
@@ -445,7 +583,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://alistapart.com/main/feed/"
     },
     {
       "name": "Codrops",
@@ -454,7 +593,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://tympanus.net/codrops/feed/"
     },
     {
       "name": "CSS-Tricks",
@@ -463,7 +603,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://css-tricks.com/feed/"
     },
     {
       "name": "Astro Blog",
@@ -472,7 +613,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://astro.build/rss.xml"
     },
     {
       "name": "Svelte Blog",
@@ -481,7 +623,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://svelte.dev/blog/rss.xml"
     },
     {
       "name": "Next.js Blog",
@@ -490,7 +633,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://nextjs.org/feed.xml"
     },
     {
       "name": "Nuxt Blog",
@@ -499,7 +643,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://nuxt.com/blog/rss.xml"
     },
     {
       "name": "Tailwind CSS Blog",
@@ -508,7 +653,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://tailwindcss.com/feeds/feed.xml"
     },
     {
       "name": "Dev.to",
@@ -517,7 +663,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://dev.to/feed"
     },
     {
       "name": "Chrome Developer Blog",
@@ -526,16 +673,18 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://developer.chrome.com/blog/feed.xml"
     },
     {
-      "name": "Dribbble Popular",
-      "url": "https://dribbble.com/shots/popular.rss",
+      "name": "Dribbble Stories",
+      "url": "https://dribbble.com/stories.rss",
       "status": "valid",
       "valid": true,
       "limited": false,
-      "statusCode": 202,
-      "error": null
+      "statusCode": 200,
+      "error": null,
+      "finalUrl": "https://dribbble.com/stories.rss"
     },
     {
       "name": "Product Hunt",
@@ -544,7 +693,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://www.producthunt.com/feed"
     },
     {
       "name": "React Blog",
@@ -553,7 +703,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://react.dev/rss.xml"
     },
     {
       "name": "Vue Blog",
@@ -562,7 +713,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://blog.vuejs.org/feed.rss"
     },
     {
       "name": "Rust Blog",
@@ -571,7 +723,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://blog.rust-lang.org/feed.xml"
     },
     {
       "name": "Go Blog",
@@ -580,7 +733,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://go.dev/blog/feed.atom"
     },
     {
       "name": "Python Blog",
@@ -589,7 +743,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://blog.python.org/feeds/posts/default"
     },
     {
       "name": "Node.js Blog",
@@ -598,16 +753,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
-    },
-    {
-      "name": "Deno Blog",
-      "url": "https://deno.com/blog/feed.xml",
-      "status": "valid",
-      "valid": true,
-      "limited": false,
-      "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://nodejs.org/en/feed/blog.xml"
     },
     {
       "name": "TypeScript Blog",
@@ -616,7 +763,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://devblogs.microsoft.com/typescript/feed/"
     },
     {
       "name": "Swift Blog",
@@ -625,7 +773,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://www.swift.org/atom.xml"
     },
     {
       "name": "Kotlin Blog",
@@ -634,7 +783,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://blog.jetbrains.com/kotlin/feed/"
     },
     {
       "name": "GitHub Blog",
@@ -643,7 +793,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://github.blog/feed/"
     },
     {
       "name": "GitHub Changelog",
@@ -652,7 +803,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://github.blog/changelog/feed/"
     },
     {
       "name": "GitHub Copilot Changelog",
@@ -661,7 +813,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://github.blog/changelog/label/copilot/feed/"
     },
     {
       "name": "Netflix Tech Blog",
@@ -670,7 +823,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://netflixtechblog.com/feed"
     },
     {
       "name": "AWS Blog",
@@ -679,7 +833,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://aws.amazon.com/blogs/aws/feed/"
     },
     {
       "name": "Cloudflare Blog",
@@ -688,7 +843,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://blog.cloudflare.com/rss/"
     },
     {
       "name": "Google Developers",
@@ -697,7 +853,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://developers.googleblog.com/feeds/posts/default/"
     },
     {
       "name": "Mozilla Hacks",
@@ -706,7 +863,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://hacks.mozilla.org/feed/"
     },
     {
       "name": "Vercel Blog",
@@ -715,7 +873,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://vercel.com/atom"
     },
     {
       "name": "Supabase Blog",
@@ -724,7 +883,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://supabase.com/rss.xml"
     },
     {
       "name": "Stripe Blog",
@@ -733,7 +893,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://stripe.com/blog/feed.rss"
     },
     {
       "name": "Spotify Engineering",
@@ -741,8 +902,9 @@
       "status": "valid",
       "valid": true,
       "limited": false,
-      "statusCode": 308,
-      "error": null
+      "statusCode": 200,
+      "error": null,
+      "finalUrl": "https://engineering.atspotify.com/feed"
     },
     {
       "name": "Meta Engineering",
@@ -751,7 +913,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://engineering.fb.com/feed/"
     },
     {
       "name": "JavaScript Weekly",
@@ -760,7 +923,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://javascriptweekly.com/rss/"
     },
     {
       "name": "This Week in Rust",
@@ -769,7 +933,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://this-week-in-rust.org/atom.xml"
     },
     {
       "name": "Golang Weekly",
@@ -778,7 +943,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://golangweekly.com/rss/"
     },
     {
       "name": "ByteByteGo",
@@ -787,7 +953,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://blog.bytebytego.com/feed"
     },
     {
       "name": "uv Releases",
@@ -796,7 +963,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://github.com/astral-sh/uv/releases.atom"
     },
     {
       "name": "Zed Releases",
@@ -805,7 +973,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://github.com/zed-industries/zed/releases.atom"
     },
     {
       "name": "Bun Releases",
@@ -814,7 +983,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://github.com/oven-sh/bun/releases.atom"
     },
     {
       "name": "Biome Releases",
@@ -823,7 +993,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://github.com/biomejs/biome/releases.atom"
     },
     {
       "name": "LangChain Releases",
@@ -832,7 +1003,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://github.com/langchain-ai/langchain/releases.atom"
     },
     {
       "name": "Nature",
@@ -841,7 +1013,18 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://www.nature.com/nature.rss?error=cookies_not_supported&code=c4706bf3-b718-4d23-9003-0c2c79ff3c00"
+    },
+    {
+      "name": "arXiv 计算机视觉",
+      "url": "https://rss.arxiv.org/rss/cs.CV",
+      "status": "valid",
+      "valid": true,
+      "limited": false,
+      "statusCode": 200,
+      "error": null,
+      "finalUrl": "https://rss.arxiv.org/rss/cs.CV"
     },
     {
       "name": "RSSHub Releases",
@@ -850,7 +1033,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://github.com/DIYgod/RSSHub/releases.atom"
     },
     {
       "name": "RSSHub Radar Releases",
@@ -859,7 +1043,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://github.com/DIYgod/RSSHub-Radar/releases.atom"
     },
     {
       "name": "Fluent Reader Releases",
@@ -868,7 +1053,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://github.com/yang991178/fluent-reader/releases.atom"
     },
     {
       "name": "NetNewsWire Releases",
@@ -877,7 +1063,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://github.com/Ranchero-Software/NetNewsWire/releases.atom"
     },
     {
       "name": "FreshRSS Releases",
@@ -886,7 +1073,8 @@
       "valid": true,
       "limited": false,
       "statusCode": 200,
-      "error": null
+      "error": null,
+      "finalUrl": "https://github.com/FreshRSS/FreshRSS/releases.atom"
     }
   ]
 }

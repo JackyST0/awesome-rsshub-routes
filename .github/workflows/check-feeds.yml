@@ -6,6 +6,10 @@ on:
     - cron: '0 2 * * 1'
   workflow_dispatch: # 允许手动触发
 
+concurrency:
+  group: check-rss-feeds
+  cancel-in-progress: false
+
 jobs:
   check-feeds:
     runs-on: ubuntu-latest
@@ -22,12 +26,19 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Test feed checker
+        run: npm test
+
       - name: Check RSS feeds
         id: check
         run: node scripts/check-feeds.js
         continue-on-error: true
 
       - name: Update or Create Issue
+        if: always()
         uses: actions/github-script@v7
         with:
           script: |
@@ -132,14 +143,16 @@ jobs:
             }
 
       - name: Update README badge data
+        if: always()
         run: |
           if [ -f feed-status.json ]; then
-            TOTAL=$(cat feed-status.json | grep -o '"total":[0-9]*' | grep -o '[0-9]*')
-            VALID=$(cat feed-status.json | grep -o '"valid":[0-9]*' | grep -o '[0-9]*')
+            TOTAL=$(node -e "console.log(require('./feed-status.json').total || 0)")
+            VALID=$(node -e "console.log(require('./feed-status.json').valid || 0)")
             echo "✅ 检测完成: $VALID/$TOTAL 个链接可用"
           fi
 
       - name: Commit feed status
+        if: always()
         run: |
           if [ -f feed-status.json ]; then
             git config --local user.email "action@github.com"
@@ -220,3 +233,24 @@ jobs:
             
             ---
             此邮件由 GitHub Actions 自动发送
+
+      - name: Fail when health report contains invalid feeds
+        if: always()
+        env:
+          CHECK_OUTCOME: ${{ steps.check.outcome }}
+        run: |
+          node - <<'NODE'
+          const fs = require('fs');
+
+          if (!fs.existsSync('feed-status.json')) {
+            throw new Error('未生成 feed-status.json，无法确认订阅源健康状态');
+          }
+
+          const status = JSON.parse(fs.readFileSync('feed-status.json', 'utf8'));
+          if (status.invalid > 0) {
+            throw new Error(`发现 ${status.invalid} 个确认失效的 RSS 订阅源`);
+          }
+          if (process.env.CHECK_OUTCOME !== 'success') {
+            throw new Error('订阅源检查器未正常完成');
+          }
+          NODE
