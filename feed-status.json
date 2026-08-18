@@ -1,10 +1,10 @@
 {
-  "checkTime": "2026-06-02 18:56:30 (北京时间)",
-  "total": 85,
-  "valid": 82,
+  "checkTime": "2026-08-17 10:57:28 (北京时间)",
+  "total": 98,
+  "valid": 95,
   "limited": 3,
   "invalid": 0,
-  "successRate": "96.5%",
+  "successRate": "96.9%",
   "feeds": [
     {
       "name": "OpenAI 博客",
@@ -97,6 +97,15 @@
       "error": null
     },
     {
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "status": "valid",
+      "valid": true,
+      "limited": false,
+      "statusCode": 200,
+      "error": null
+    },
+    {
       "name": "Hugging Face 博客",
       "url": "https://huggingface.co/blog/feed.xml",
       "status": "valid",
@@ -138,7 +147,7 @@
       "status": "valid",
       "valid": true,
       "limited": false,
-      "statusCode": 200,
+      "statusCode": 302,
       "error": null
     },
     {
@@ -151,8 +160,8 @@
       "error": null
     },
     {
-      "name": "LinuxDo 最新话题",
-      "url": "https://linux.do/latest.rss",
+      "name": "OpenAI Codex Releases",
+      "url": "https://github.com/openai/codex/releases.atom",
       "status": "valid",
       "valid": true,
       "limited": false,
@@ -160,13 +169,58 @@
       "error": null
     },
     {
-      "name": "LinuxDo 热门话题",
-      "url": "https://linux.do/top.rss",
+      "name": "Claude Code Releases",
+      "url": "https://github.com/anthropics/claude-code/releases.atom",
       "status": "valid",
       "valid": true,
       "limited": false,
       "statusCode": 200,
       "error": null
+    },
+    {
+      "name": "Gemini CLI Releases",
+      "url": "https://github.com/google-gemini/gemini-cli/releases.atom",
+      "status": "valid",
+      "valid": true,
+      "limited": false,
+      "statusCode": 200,
+      "error": null
+    },
+    {
+      "name": "MCP Specification Releases",
+      "url": "https://github.com/modelcontextprotocol/specification/releases.atom",
+      "status": "valid",
+      "valid": true,
+      "limited": false,
+      "statusCode": 301,
+      "error": null
+    },
+    {
+      "name": "MCP Servers Releases",
+      "url": "https://github.com/modelcontextprotocol/servers/releases.atom",
+      "status": "valid",
+      "valid": true,
+      "limited": false,
+      "statusCode": 200,
+      "error": null
+    },
+    {
+      "name": "LinuxDo 最新话题",
+      "url": "https://linux.do/latest.rss",
+      "status": "limited",
+      "valid": false,
+      "limited": true,
+      "statusCode": 403,
+      "error": "HTTP 403"
+    },
+    {
+      "name": "LinuxDo 热门话题",
+      "url": "https://linux.do/top.rss",
+      "status": "limited",
+      "valid": false,
+      "limited": true,
+      "statusCode": 403,
+      "error": "HTTP 403"
     },
     {
       "name": "V2EX 最热",
@@ -198,11 +252,11 @@
     {
       "name": "奶昔论坛最新话题",
       "url": "https://forum.naixi.net/forum.php?mod=rss",
-      "status": "limited",
-      "valid": false,
-      "limited": true,
-      "statusCode": 403,
-      "error": "HTTP 403"
+      "status": "valid",
+      "valid": true,
+      "limited": false,
+      "statusCode": 200,
+      "error": null
     },
     {
       "name": "Hacker News 首页",
@@ -252,11 +306,11 @@
     {
       "name": "阮一峰的网络日志",
       "url": "https://www.ruanyifeng.com/blog/atom.xml",
-      "status": "limited",
-      "valid": false,
-      "limited": true,
-      "statusCode": 403,
-      "error": "HTTP 403"
+      "status": "valid",
+      "valid": true,
+      "limited": false,
+      "statusCode": 200,
+      "error": null
     },
     {
       "name": "IT之家",
@@ -592,6 +646,24 @@
       "error": null
     },
     {
+      "name": "GitHub Changelog",
+      "url": "https://github.blog/changelog/feed/",
+      "status": "valid",
+      "valid": true,
+      "limited": false,
+      "statusCode": 200,
+      "error": null
+    },
+    {
+      "name": "GitHub Copilot Changelog",
+      "url": "https://github.blog/changelog/label/copilot/feed/",
+      "status": "valid",
+      "valid": true,
+      "limited": false,
+      "statusCode": 200,
+      "error": null
+    },
+    {
       "name": "Netflix Tech Blog",
       "url": "https://netflixtechblog.com/feed",
       "status": "valid",
@@ -687,7 +759,7 @@
       "status": "valid",
       "valid": true,
       "limited": false,
-      "statusCode": 302,
+      "statusCode": 200,
       "error": null
     },
     {
@@ -718,12 +790,57 @@
       "error": null
     },
     {
+      "name": "uv Releases",
+      "url": "https://github.com/astral-sh/uv/releases.atom",
+      "status": "valid",
+      "valid": true,
+      "limited": false,
+      "statusCode": 200,
+      "error": null
+    },
+    {
+      "name": "Zed Releases",
+      "url": "https://github.com/zed-industries/zed/releases.atom",
+      "status": "valid",
+      "valid": true,
+      "limited": false,
+      "statusCode": 200,
+      "error": null
+    },
+    {
+      "name": "Bun Releases",
+      "url": "https://github.com/oven-sh/bun/releases.atom",
+      "status": "valid",
+      "valid": true,
+      "limited": false,
+      "statusCode": 200,
+      "error": null
+    },
+    {
+      "name": "Biome Releases",
+      "url": "https://github.com/biomejs/biome/releases.atom",
+      "status": "valid",
+      "valid": true,
+      "limited": false,
+      "statusCode": 200,
+      "error": null
+    },
+    {
+      "name": "LangChain Releases",
+      "url": "https://github.com/langchain-ai/langchain/releases.atom",
+      "status": "valid",
+      "valid": true,
+      "limited": false,
+      "statusCode": 200,
+      "error": null
+    },
+    {
       "name": "Nature",
       "url": "https://www.nature.com/nature.rss",
       "status": "valid",
       "valid": true,
       "limited": false,
-      "statusCode": 303,
+      "statusCode": 200,
       "error": null
     },
     {
