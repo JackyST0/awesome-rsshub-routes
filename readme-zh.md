@@ -193,6 +193,20 @@
 
 > 💡 建议在 RSS 阅读器中配置标题关键词过滤去广告
 
+#### 人民日报
+
+> 来源：[Issue #9](https://github.com/JackyST0/awesome-rsshub-routes/issues/9)
+
+| 名称 | 订阅地址 | 说明 |
+|------|----------|------|
+| 时政新闻 | `http://www.people.com.cn/rss/politics.xml` | 时政新闻 |
+| 社会新闻 | `http://www.people.com.cn/rss/society.xml` | 社会新闻 |
+| 法治新闻 | `http://www.people.com.cn/rss/legal.xml` | 法治新闻 |
+| 国际新闻 | `http://www.people.com.cn/rss/world.xml` | 国际新闻 |
+| 台港澳新闻 | `http://www.people.com.cn/rss/haixia.xml` | 台港澳新闻 |
+| 军事新闻 | `http://www.people.com.cn/rss/military.xml` | 军事新闻 |
+| 全部新闻 | `http://www.people.com.cn/rss/ywkx.xml` | 全部新闻 |
+
 ---
 
 ### 🌐 科技媒体

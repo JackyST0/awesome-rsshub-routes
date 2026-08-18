@@ -178,6 +178,20 @@ Built on Discourse with native RSS support.
 | ------ | ----------------------------- | ----------------- |
 | ITHome | `https://www.ithome.com/rss/` | IT news full-text |
 
+#### People's Daily
+
+Source: [Issue #9](https://github.com/JackyST0/awesome-rsshub-routes/issues/9)
+
+| Name                | Feed URL                                      | Description        |
+| ------------------- | --------------------------------------------- | ------------------ |
+| Politics            | `http://www.people.com.cn/rss/politics.xml`  | Politics news      |
+| Society             | `http://www.people.com.cn/rss/society.xml`   | Society news       |
+| Legal               | `http://www.people.com.cn/rss/legal.xml`     | Legal news         |
+| World               | `http://www.people.com.cn/rss/world.xml`     | International news |
+| Taiwan, HK and Macao | `http://www.people.com.cn/rss/haixia.xml`   | Cross-strait news  |
+| Military            | `http://www.people.com.cn/rss/military.xml`  | Military news      |
+| All News            | `http://www.people.com.cn/rss/ywkx.xml`      | All latest news    |
+
 ### Tech Media
 
 Well-known international tech media with official RSS.
