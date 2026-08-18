@@ -1,10 +1,10 @@
 {
-  "checkTime": "2026-08-18 10:52:11 (北京时间)",
+  "checkTime": "2026-08-18 11:17:16 (北京时间)",
   "total": 107,
-  "valid": 98,
-  "limited": 9,
+  "valid": 102,
+  "limited": 5,
   "invalid": 0,
-  "successRate": "91.6%",
+  "successRate": "95.3%",
   "feeds": [
     {
       "name": "OpenAI 博客",
@@ -229,11 +229,11 @@
     {
       "name": "V2EX 全站最新",
       "url": "https://www.v2ex.com/index.xml",
-      "status": "limited",
-      "valid": false,
-      "limited": true,
-      "statusCode": null,
-      "error": "ETIMEDOUT",
+      "status": "valid",
+      "valid": true,
+      "limited": false,
+      "statusCode": 200,
+      "error": null,
       "finalUrl": "https://www.v2ex.com/index.xml"
     },
     {
@@ -499,11 +499,11 @@
     {
       "name": "Krebs on Security",
       "url": "https://krebsonsecurity.com/feed/",
-      "status": "limited",
-      "valid": false,
-      "limited": true,
-      "statusCode": 403,
-      "error": "HTTP 403",
+      "status": "valid",
+      "valid": true,
+      "limited": false,
+      "statusCode": 200,
+      "error": null,
       "finalUrl": "https://krebsonsecurity.com/feed/"
     },
     {
@@ -599,11 +599,11 @@
     {
       "name": "CSS-Tricks",
       "url": "https://css-tricks.com/feed/",
-      "status": "limited",
-      "valid": false,
-      "limited": true,
-      "statusCode": 415,
-      "error": "HTTP 415",
+      "status": "valid",
+      "valid": true,
+      "limited": false,
+      "statusCode": 200,
+      "error": null,
       "finalUrl": "https://css-tricks.com/feed/"
     },
     {
