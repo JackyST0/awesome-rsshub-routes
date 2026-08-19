@@ -478,7 +478,7 @@ If this project saves you time finding quality RSS feeds, you can support it by 
 
 If this project is helpful to you, please consider giving it a star.
 
-[![Star History Chart](https://api.star-history.com/svg?repos=JackyST0/awesome-rsshub-routes&type=Date)](https://star-history.com/#JackyST0/awesome-rsshub-routes&Date)
+[![Star History Chart](https://star-history.dera.page/svg?repos=JackyST0/awesome-rsshub-routes&type=Date)](https://star-history.dera.page/#JackyST0/awesome-rsshub-routes&Date)
 
 ## License
 
