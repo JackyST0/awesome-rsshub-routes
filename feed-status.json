@@ -1,10 +1,10 @@
 {
-  "checkTime": "2026-08-18 11:17:16 (北京时间)",
+  "checkTime": "2026-08-24 10:59:06 (北京时间)",
   "total": 107,
-  "valid": 102,
-  "limited": 5,
+  "valid": 103,
+  "limited": 4,
   "invalid": 0,
-  "successRate": "95.3%",
+  "successRate": "96.3%",
   "feeds": [
     {
       "name": "OpenAI 博客",
@@ -89,11 +89,11 @@
     {
       "name": "Hacker News OpenClaw",
       "url": "https://hnrss.org/newest?q=OpenClaw",
-      "status": "limited",
-      "valid": false,
-      "limited": true,
-      "statusCode": 502,
-      "error": "HTTP 502",
+      "status": "valid",
+      "valid": true,
+      "limited": false,
+      "statusCode": 200,
+      "error": null,
       "finalUrl": "https://hnrss.org/newest?q=OpenClaw"
     },
     {
