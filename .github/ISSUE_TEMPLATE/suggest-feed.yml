@@ -1,0 +1,63 @@
+name: Suggest a feed
+description: Recommend an official RSS or Atom feed for the directory.
+title: "[Feed]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have a ready documentation and OPML change? Please open a pull request instead. Use this form to suggest a feed or discuss whether it belongs in the directory.
+  - type: input
+    id: name
+    attributes:
+      label: Feed name
+      description: The publisher and feed name as it should appear in the directory.
+      placeholder: "Example: Example Publisher Blog"
+    validations:
+      required: true
+  - type: input
+    id: feed-url
+    attributes:
+      label: RSS or Atom URL
+      description: A directly importable feed URL, not a webpage URL.
+      placeholder: https://example.com/feed.xml
+    validations:
+      required: true
+  - type: input
+    id: homepage-url
+    attributes:
+      label: Official homepage
+      description: The publisher page that establishes this as an official feed.
+      placeholder: https://example.com/
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Suggested category
+      options:
+        - AI Papers and News
+        - Big Tech Engineering Blogs
+        - Tech Communities
+        - Tech Newsletters
+        - Developer Tool Releases
+        - News
+        - Academic Papers
+        - Other (please explain below)
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Brief description
+      description: Describe the content, audience, and why it belongs in this category.
+    validations:
+      required: true
+  - type: checkboxes
+    id: verification
+    attributes:
+      label: Verification
+      options:
+        - label: I verified that the URL is not already listed and opens in an RSS reader or browser.
+          required: true
+        - label: I can open a pull request with the documentation and OPML changes.
+          required: false

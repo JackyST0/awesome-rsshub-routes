@@ -457,7 +457,7 @@ Simply copy the feed URL into your RSS reader. No assembly required.
 
 ## Contributing
 
-See [contributing.md](contributing.md) for guidelines on adding feeds.
+See [contributing.md](contributing.md) for guidelines on adding feeds. Submit ready changes as pull requests; use issues to suggest feeds, report broken entries, or discuss categories.
 
 ## Support This Project
 

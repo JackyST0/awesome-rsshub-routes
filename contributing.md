@@ -2,6 +2,12 @@
 
 Contributions are welcome! Please read the following guidelines before submitting.
 
+## Choose an Issue or Pull Request
+
+- Open a pull request when you have a ready change, such as adding, updating, or removing a feed.
+- Open an issue to suggest a feed, report a broken entry, or discuss a category before preparing a change.
+- For a feed suggestion, issues are welcome; contributors who can make the documented changes are encouraged to submit a pull request directly.
+
 ## Adding a Feed
 
 1. Make sure the feed is **actually working** — test it in an RSS reader before submitting.
@@ -15,7 +21,8 @@ Contributions are welcome! Please read the following guidelines before submittin
 | Example Feed | `https://example.com/feed` | Brief description |
 
 6. Keep descriptions concise and objective.
-7. Run `npm test` and `npm run check` before submitting. If a feed is restricted by anti-crawling or a proxy requirement, describe that limitation in the PR.
+7. Running `npm test` before submitting is recommended. `npm run check` performs network requests to every feed and may be affected by proxies, rate limits, and anti-crawling measures; maintainers review its result during the PR process.
+8. If a feed is restricted by anti-crawling or requires a proxy, describe that limitation in the PR.
 
 ## Adding a Category
 
@@ -35,6 +42,6 @@ The OPML file is the online directory's source of truth and contains only direct
 
 ## Reporting Issues
 
-If you find a broken feed or have suggestions, please [open an issue](https://github.com/JackyST0/awesome-rsshub-routes/issues).
+If you find a broken feed or only want to suggest an entry, please [open an issue](https://github.com/JackyST0/awesome-rsshub-routes/issues). Use a pull request when you can provide the corresponding documentation and OPML changes.
 
 Thank you for helping make this list more awesome!

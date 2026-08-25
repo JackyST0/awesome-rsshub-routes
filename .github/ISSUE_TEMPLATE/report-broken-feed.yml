@@ -1,0 +1,51 @@
+name: Report a broken feed
+description: Report an existing directory entry that is unavailable or no longer a valid feed.
+title: "[Broken feed]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        If you already have a fix ready, please open a pull request. Include enough detail here for maintainers to reproduce the problem.
+  - type: input
+    id: name
+    attributes:
+      label: Feed name
+      description: Use the name shown in README or the OPML directory.
+    validations:
+      required: true
+  - type: input
+    id: feed-url
+    attributes:
+      label: Feed URL
+      description: The exact URL currently listed in this repository.
+      placeholder: https://example.com/feed.xml
+    validations:
+      required: true
+  - type: textarea
+    id: observed-problem
+    attributes:
+      label: Observed problem
+      description: Include the HTTP status, parsing error, redirect, or other behavior you observed.
+      placeholder: "HTTP 404; the URL no longer resolves to a feed."
+    validations:
+      required: true
+  - type: input
+    id: checked-at
+    attributes:
+      label: Checked at
+      description: Provide the date and time, including timezone if possible.
+      placeholder: "2026-08-25 15:30 UTC+8"
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: How to reproduce
+      description: Describe the browser, RSS reader, command, proxy, or network conditions used to observe the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: replacement
+    attributes:
+      label: Possible replacement (optional)
+      description: Share an official replacement feed URL if you found one.
