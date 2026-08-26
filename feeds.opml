@@ -53,13 +53,6 @@
     <!-- 新闻资讯 -->
     <outline text="📰 新闻资讯" title="新闻资讯">
       <outline type="rss" text="IT之家" title="IT之家" xmlUrl="https://www.ithome.com/rss/"/>
-      <outline type="rss" text="人民日报时政新闻" title="人民日报时政新闻" xmlUrl="http://www.people.com.cn/rss/politics.xml"/>
-      <outline type="rss" text="人民日报社会新闻" title="人民日报社会新闻" xmlUrl="http://www.people.com.cn/rss/society.xml"/>
-      <outline type="rss" text="人民日报法治新闻" title="人民日报法治新闻" xmlUrl="http://www.people.com.cn/rss/legal.xml"/>
-      <outline type="rss" text="人民日报国际新闻" title="人民日报国际新闻" xmlUrl="http://www.people.com.cn/rss/world.xml"/>
-      <outline type="rss" text="人民日报台港澳新闻" title="人民日报台港澳新闻" xmlUrl="http://www.people.com.cn/rss/haixia.xml"/>
-      <outline type="rss" text="人民日报军事新闻" title="人民日报军事新闻" xmlUrl="http://www.people.com.cn/rss/military.xml"/>
-      <outline type="rss" text="人民日报全部新闻" title="人民日报全部新闻" xmlUrl="http://www.people.com.cn/rss/ywkx.xml"/>
     </outline>
 
     <!-- 科技媒体 -->

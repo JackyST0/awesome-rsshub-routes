@@ -1,10 +1,10 @@
 {
-  "checkTime": "2026-08-24 10:59:06 (北京时间)",
-  "total": 107,
-  "valid": 103,
-  "limited": 4,
+  "checkTime": "2026-08-26 17:58:13 (北京时间)",
+  "total": 100,
+  "valid": 86,
+  "limited": 14,
   "invalid": 0,
-  "successRate": "96.3%",
+  "successRate": "86.0%",
   "feeds": [
     {
       "name": "OpenAI 博客",
@@ -39,31 +39,31 @@
     {
       "name": "arXiv AI",
       "url": "https://rss.arxiv.org/rss/cs.AI",
-      "status": "valid",
-      "valid": true,
-      "limited": false,
-      "statusCode": 200,
-      "error": null,
+      "status": "limited",
+      "valid": false,
+      "limited": true,
+      "statusCode": null,
+      "error": "ECONNRESET",
       "finalUrl": "https://rss.arxiv.org/rss/cs.AI"
     },
     {
       "name": "arXiv 机器学习",
       "url": "https://rss.arxiv.org/rss/cs.LG",
-      "status": "valid",
-      "valid": true,
-      "limited": false,
-      "statusCode": 200,
-      "error": null,
+      "status": "limited",
+      "valid": false,
+      "limited": true,
+      "statusCode": null,
+      "error": "ECONNRESET",
       "finalUrl": "https://rss.arxiv.org/rss/cs.LG"
     },
     {
       "name": "arXiv NLP",
       "url": "https://rss.arxiv.org/rss/cs.CL",
-      "status": "valid",
-      "valid": true,
-      "limited": false,
-      "statusCode": 200,
-      "error": null,
+      "status": "limited",
+      "valid": false,
+      "limited": true,
+      "statusCode": null,
+      "error": "ECONNRESET",
       "finalUrl": "https://rss.arxiv.org/rss/cs.CL"
     },
     {
@@ -89,11 +89,11 @@
     {
       "name": "Hacker News OpenClaw",
       "url": "https://hnrss.org/newest?q=OpenClaw",
-      "status": "valid",
-      "valid": true,
-      "limited": false,
-      "statusCode": 200,
-      "error": null,
+      "status": "limited",
+      "valid": false,
+      "limited": true,
+      "statusCode": 502,
+      "error": "HTTP 502",
       "finalUrl": "https://hnrss.org/newest?q=OpenClaw"
     },
     {
@@ -202,8 +202,8 @@
       "status": "limited",
       "valid": false,
       "limited": true,
-      "statusCode": 403,
-      "error": "HTTP 403",
+      "statusCode": null,
+      "error": "ENETUNREACH",
       "finalUrl": "https://linux.do/latest.rss"
     },
     {
@@ -212,8 +212,8 @@
       "status": "limited",
       "valid": false,
       "limited": true,
-      "statusCode": 403,
-      "error": "HTTP 403",
+      "statusCode": null,
+      "error": "ENETUNREACH",
       "finalUrl": "https://linux.do/top.rss"
     },
     {
@@ -222,68 +222,68 @@
       "status": "limited",
       "valid": false,
       "limited": true,
-      "statusCode": 403,
-      "error": "HTTP 403",
+      "statusCode": null,
+      "error": "ENETUNREACH",
       "finalUrl": "https://linux.do/posts.rss"
     },
     {
       "name": "V2EX 全站最新",
       "url": "https://www.v2ex.com/index.xml",
-      "status": "valid",
-      "valid": true,
-      "limited": false,
-      "statusCode": 200,
-      "error": null,
+      "status": "limited",
+      "valid": false,
+      "limited": true,
+      "statusCode": null,
+      "error": "ETIMEDOUT",
       "finalUrl": "https://www.v2ex.com/index.xml"
     },
     {
       "name": "V2EX 最新",
       "url": "https://www.v2ex.com/feed/tab/all.xml",
-      "status": "valid",
-      "valid": true,
-      "limited": false,
-      "statusCode": 200,
-      "error": null,
+      "status": "limited",
+      "valid": false,
+      "limited": true,
+      "statusCode": null,
+      "error": "ETIMEDOUT",
       "finalUrl": "https://www.v2ex.com/feed/tab/all.xml"
     },
     {
       "name": "V2EX 技术",
       "url": "https://www.v2ex.com/feed/tab/tech.xml",
-      "status": "valid",
-      "valid": true,
-      "limited": false,
-      "statusCode": 200,
-      "error": null,
+      "status": "limited",
+      "valid": false,
+      "limited": true,
+      "statusCode": null,
+      "error": "ETIMEDOUT",
       "finalUrl": "https://www.v2ex.com/feed/tab/tech.xml"
     },
     {
       "name": "V2EX 创意",
       "url": "https://www.v2ex.com/feed/tab/creative.xml",
-      "status": "valid",
-      "valid": true,
-      "limited": false,
-      "statusCode": 200,
-      "error": null,
+      "status": "limited",
+      "valid": false,
+      "limited": true,
+      "statusCode": null,
+      "error": "ETIMEDOUT",
       "finalUrl": "https://www.v2ex.com/feed/tab/creative.xml"
     },
     {
       "name": "V2EX 好玩",
       "url": "https://www.v2ex.com/feed/tab/play.xml",
-      "status": "valid",
-      "valid": true,
-      "limited": false,
-      "statusCode": 200,
-      "error": null,
+      "status": "limited",
+      "valid": false,
+      "limited": true,
+      "statusCode": null,
+      "error": "ETIMEDOUT",
       "finalUrl": "https://www.v2ex.com/feed/tab/play.xml"
     },
     {
       "name": "NodeSeek 最新话题",
       "url": "https://rss.nodeseek.com/",
-      "status": "valid",
-      "valid": true,
-      "limited": false,
-      "statusCode": 200,
-      "error": null,
+      "status": "limited",
+      "valid": false,
+      "limited": true,
+      "statusCode": null,
+      "error": "ETIMEDOUT",
       "finalUrl": "https://rss.nodeseek.com/"
     },
     {
@@ -375,76 +375,6 @@
       "statusCode": 200,
       "error": null,
       "finalUrl": "https://www.ithome.com/rss/"
-    },
-    {
-      "name": "人民日报时政新闻",
-      "url": "http://www.people.com.cn/rss/politics.xml",
-      "status": "valid",
-      "valid": true,
-      "limited": false,
-      "statusCode": 200,
-      "error": null,
-      "finalUrl": "http://www.people.com.cn/rss/politics.xml"
-    },
-    {
-      "name": "人民日报社会新闻",
-      "url": "http://www.people.com.cn/rss/society.xml",
-      "status": "valid",
-      "valid": true,
-      "limited": false,
-      "statusCode": 200,
-      "error": null,
-      "finalUrl": "http://www.people.com.cn/rss/society.xml"
-    },
-    {
-      "name": "人民日报法治新闻",
-      "url": "http://www.people.com.cn/rss/legal.xml",
-      "status": "valid",
-      "valid": true,
-      "limited": false,
-      "statusCode": 200,
-      "error": null,
-      "finalUrl": "http://www.people.com.cn/rss/legal.xml"
-    },
-    {
-      "name": "人民日报国际新闻",
-      "url": "http://www.people.com.cn/rss/world.xml",
-      "status": "valid",
-      "valid": true,
-      "limited": false,
-      "statusCode": 200,
-      "error": null,
-      "finalUrl": "http://www.people.com.cn/rss/world.xml"
-    },
-    {
-      "name": "人民日报台港澳新闻",
-      "url": "http://www.people.com.cn/rss/haixia.xml",
-      "status": "valid",
-      "valid": true,
-      "limited": false,
-      "statusCode": 200,
-      "error": null,
-      "finalUrl": "http://www.people.com.cn/rss/haixia.xml"
-    },
-    {
-      "name": "人民日报军事新闻",
-      "url": "http://www.people.com.cn/rss/military.xml",
-      "status": "valid",
-      "valid": true,
-      "limited": false,
-      "statusCode": 200,
-      "error": null,
-      "finalUrl": "http://www.people.com.cn/rss/military.xml"
-    },
-    {
-      "name": "人民日报全部新闻",
-      "url": "http://www.people.com.cn/rss/ywkx.xml",
-      "status": "valid",
-      "valid": true,
-      "limited": false,
-      "statusCode": 200,
-      "error": null,
-      "finalUrl": "http://www.people.com.cn/rss/ywkx.xml"
     },
     {
       "name": "TechCrunch",
@@ -549,11 +479,11 @@
     {
       "name": "FreeBuf",
       "url": "https://www.freebuf.com/feed",
-      "status": "limited",
-      "valid": false,
-      "limited": true,
-      "statusCode": 405,
-      "error": "HTTP 405",
+      "status": "valid",
+      "valid": true,
+      "limited": false,
+      "statusCode": 200,
+      "error": null,
       "finalUrl": "https://www.freebuf.com/feed"
     },
     {
@@ -1019,11 +949,11 @@
     {
       "name": "arXiv 计算机视觉",
       "url": "https://rss.arxiv.org/rss/cs.CV",
-      "status": "valid",
-      "valid": true,
-      "limited": false,
-      "statusCode": 200,
-      "error": null,
+      "status": "limited",
+      "valid": false,
+      "limited": true,
+      "statusCode": null,
+      "error": "ECONNRESET",
       "finalUrl": "https://rss.arxiv.org/rss/cs.CV"
     },
     {
