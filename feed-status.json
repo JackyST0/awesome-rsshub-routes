@@ -1,5 +1,5 @@
 {
-  "checkTime": "2026-09-07 14:57:53 (北京时间)",
+  "checkTime": "2026-09-14 15:31:12 (北京时间)",
   "total": 100,
   "valid": 96,
   "limited": 4,
@@ -944,7 +944,7 @@
       "limited": false,
       "statusCode": 200,
       "error": null,
-      "finalUrl": "https://www.nature.com/nature.rss"
+      "finalUrl": "https://www.nature.com/nature.rss?error=cookies_not_supported&code=52a96251-7708-41fd-93ee-9f799d87bb93"
     },
     {
       "name": "arXiv 计算机视觉",
