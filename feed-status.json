@@ -1,10 +1,10 @@
 {
-  "checkTime": "2026-09-14 15:31:12 (北京时间)",
+  "checkTime": "2026-09-21 15:35:12 (北京时间)",
   "total": 100,
-  "valid": 96,
+  "valid": 95,
   "limited": 4,
-  "invalid": 0,
-  "successRate": "96.0%",
+  "invalid": 1,
+  "successRate": "95.0%",
   "feeds": [
     {
       "name": "OpenAI 博客",
@@ -519,11 +519,11 @@
     {
       "name": "Codrops",
       "url": "https://tympanus.net/codrops/feed/",
-      "status": "valid",
-      "valid": true,
+      "status": "invalid",
+      "valid": false,
       "limited": false,
-      "statusCode": 200,
-      "error": null,
+      "statusCode": 410,
+      "error": "HTTP 410",
       "finalUrl": "https://tympanus.net/codrops/feed/"
     },
     {
@@ -944,7 +944,7 @@
       "limited": false,
       "statusCode": 200,
       "error": null,
-      "finalUrl": "https://www.nature.com/nature.rss?error=cookies_not_supported&code=52a96251-7708-41fd-93ee-9f799d87bb93"
+      "finalUrl": "https://www.nature.com/nature.rss"
     },
     {
       "name": "arXiv 计算机视觉",
