@@ -186,6 +186,7 @@ Well-known international tech media with official RSS.
 | The Verge             | `https://www.theverge.com/rss/index.xml`          | Tech and culture         |
 | Wired                 | `https://www.wired.com/feed/rss`                  | Wired magazine           |
 | Ars Technica          | `https://feeds.arstechnica.com/arstechnica/index` | In-depth tech analysis   |
+| Joho no Todai         | `https://joho-todai.com/pinterest-rss/`            | Japanese tech news and analysis; short excerpts |
 | MIT Technology Review | `https://www.technologyreview.com/feed/`          | MIT tech review          |
 
 ### Security
