@@ -234,7 +234,6 @@
 |------|----------|------|
 | Smashing Magazine | `https://www.smashingmagazine.com/feed/` | 前端设计杂志 |
 | A List Apart | `https://alistapart.com/main/feed/` | Web 标准与设计 |
-| Codrops | `https://tympanus.net/codrops/feed/` | 创意前端效果 |
 | CSS-Tricks | `https://css-tricks.com/feed/` | CSS 技巧教程 |
 | Astro Blog | `https://astro.build/rss.xml` | Astro 框架动态 |
 | Svelte Blog | `https://svelte.dev/blog/rss.xml` | Svelte / SvelteKit 更新 |

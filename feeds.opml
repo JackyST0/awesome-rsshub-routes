@@ -80,7 +80,6 @@
     <outline text="🎨 前端 &amp; 设计" title="前端 &amp; 设计">
       <outline type="rss" text="Smashing Magazine" title="Smashing Magazine" xmlUrl="https://www.smashingmagazine.com/feed/"/>
       <outline type="rss" text="A List Apart" title="A List Apart" xmlUrl="https://alistapart.com/main/feed/"/>
-      <outline type="rss" text="Codrops" title="Codrops" xmlUrl="https://tympanus.net/codrops/feed/"/>
       <outline type="rss" text="CSS-Tricks" title="CSS-Tricks" xmlUrl="https://css-tricks.com/feed/"/>
       <outline type="rss" text="Astro Blog" title="Astro Blog" xmlUrl="https://astro.build/rss.xml"/>
       <outline type="rss" text="Svelte Blog" title="Svelte Blog" xmlUrl="https://svelte.dev/blog/rss.xml"/>

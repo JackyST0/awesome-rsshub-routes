@@ -211,7 +211,6 @@ Frontend development, UI/UX design resources.
 | --------------------- | -------------------------------------------- | ------------------------- |
 | Smashing Magazine     | `https://www.smashingmagazine.com/feed/`     | Frontend design magazine  |
 | A List Apart          | `https://alistapart.com/main/feed/`          | Web standards and design  |
-| Codrops               | `https://tympanus.net/codrops/feed/`         | Creative frontend effects |
 | CSS-Tricks            | `https://css-tricks.com/feed/`               | CSS tips and tutorials    |
 | Astro Blog            | `https://astro.build/rss.xml`                | Astro framework updates   |
 | Svelte Blog           | `https://svelte.dev/blog/rss.xml`            | Svelte and SvelteKit news |
