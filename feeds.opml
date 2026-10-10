@@ -101,6 +101,7 @@
       <outline type="rss" text="Go Blog" title="Go Blog" xmlUrl="https://go.dev/blog/feed.atom"/>
       <outline type="rss" text="Python Blog" title="Python Blog" xmlUrl="https://blog.python.org/feeds/posts/default"/>
       <outline type="rss" text="Node.js Blog" title="Node.js Blog" xmlUrl="https://nodejs.org/en/feed/blog.xml"/>
+      <outline type="rss" text="Deno Blog" title="Deno Blog" xmlUrl="https://deno.com/feed"/>
       <outline type="rss" text="TypeScript Blog" title="TypeScript Blog" xmlUrl="https://devblogs.microsoft.com/typescript/feed/"/>
       <outline type="rss" text="Swift Blog" title="Swift Blog" xmlUrl="https://www.swift.org/atom.xml"/>
       <outline type="rss" text="Kotlin Blog" title="Kotlin Blog" xmlUrl="https://blog.jetbrains.com/kotlin/feed/"/>

@@ -235,6 +235,7 @@ Official blogs for programming languages and frameworks.
 | Go Blog         | `https://go.dev/blog/feed.atom`                   | Go official blog         |
 | Python Blog     | `https://blog.python.org/feeds/posts/default`     | Python official blog     |
 | Node.js Blog    | `https://nodejs.org/en/feed/blog.xml`             | Node.js official blog    |
+| Deno Blog       | `https://deno.com/feed`                            | Deno official blog       |
 | TypeScript Blog | `https://devblogs.microsoft.com/typescript/feed/` | TypeScript official blog |
 | Swift Blog      | `https://www.swift.org/atom.xml`                  | Swift official blog      |
 | Kotlin Blog     | `https://blog.jetbrains.com/kotlin/feed/`         | Kotlin official blog     |

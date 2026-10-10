@@ -265,6 +265,7 @@
 | Go Blog | `https://go.dev/blog/feed.atom` | Go 官方博客 |
 | Python Blog | `https://blog.python.org/feeds/posts/default` | Python 官方博客 |
 | Node.js Blog | `https://nodejs.org/en/feed/blog.xml` | Node.js 官方博客 |
+| Deno Blog | `https://deno.com/feed` | Deno 官方博客 |
 | TypeScript Blog | `https://devblogs.microsoft.com/typescript/feed/` | TypeScript 官方博客 |
 | Swift Blog | `https://www.swift.org/atom.xml` | Swift 官方博客 |
 | Kotlin Blog | `https://blog.jetbrains.com/kotlin/feed/` | Kotlin 官方博客 |
