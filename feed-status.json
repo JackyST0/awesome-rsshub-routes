@@ -1,10 +1,10 @@
 {
-  "checkTime": "2026-10-05 16:15:32 (北京时间)",
-  "total": 100,
-  "valid": 94,
-  "limited": 6,
+  "checkTime": "2026-10-12 16:32:49 (北京时间)",
+  "total": 102,
+  "valid": 97,
+  "limited": 5,
   "invalid": 0,
-  "successRate": "94.0%",
+  "successRate": "95.1%",
   "feeds": [
     {
       "name": "OpenAI 博客",
@@ -35,6 +35,16 @@
       "statusCode": 200,
       "error": null,
       "finalUrl": "https://blog.google/innovation-and-ai/technology/ai/rss/"
+    },
+    {
+      "name": "AIHOT 日报",
+      "url": "https://aihot.news/feed/daily.xml",
+      "status": "valid",
+      "valid": true,
+      "limited": false,
+      "statusCode": 200,
+      "error": null,
+      "finalUrl": "https://aihot.news/feed/daily.xml"
     },
     {
       "name": "arXiv AI",
@@ -417,6 +427,16 @@
       "finalUrl": "https://feeds.arstechnica.com/arstechnica/index"
     },
     {
+      "name": "Joho no Todai",
+      "url": "https://joho-todai.com/pinterest-rss/",
+      "status": "valid",
+      "valid": true,
+      "limited": false,
+      "statusCode": 200,
+      "error": null,
+      "finalUrl": "https://joho-todai.com/pinterest-rss/"
+    },
+    {
       "name": "MIT Technology Review",
       "url": "https://www.technologyreview.com/feed/",
       "status": "valid",
@@ -515,16 +535,6 @@
       "statusCode": 200,
       "error": null,
       "finalUrl": "https://alistapart.com/main/feed/"
-    },
-    {
-      "name": "Codrops",
-      "url": "https://tympanus.net/codrops/feed/",
-      "status": "limited",
-      "valid": false,
-      "limited": true,
-      "statusCode": 403,
-      "error": "HTTP 403",
-      "finalUrl": "https://tympanus.net/codrops/feed/"
     },
     {
       "name": "CSS-Tricks",
@@ -685,6 +695,16 @@
       "statusCode": 200,
       "error": null,
       "finalUrl": "https://nodejs.org/en/feed/blog.xml"
+    },
+    {
+      "name": "Deno Blog",
+      "url": "https://deno.com/feed",
+      "status": "valid",
+      "valid": true,
+      "limited": false,
+      "statusCode": 200,
+      "error": null,
+      "finalUrl": "https://deno.com/feed"
     },
     {
       "name": "TypeScript Blog",
@@ -944,7 +964,7 @@
       "limited": false,
       "statusCode": 200,
       "error": null,
-      "finalUrl": "https://www.nature.com/nature.rss"
+      "finalUrl": "https://www.nature.com/nature.rss?error=cookies_not_supported&code=efd57ea5-b17e-470c-b101-88d6b208ffaa"
     },
     {
       "name": "arXiv 计算机视觉",
