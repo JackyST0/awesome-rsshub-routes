@@ -11,6 +11,7 @@
       <outline type="rss" text="OpenAI 博客" title="OpenAI 博客" xmlUrl="https://openai.com/news/rss.xml"/>
       <outline type="rss" text="Google DeepMind" title="Google DeepMind" xmlUrl="https://deepmind.google/blog/rss.xml"/>
       <outline type="rss" text="Google AI Blog" title="Google AI Blog" xmlUrl="https://blog.google/technology/ai/rss/"/>
+      <outline type="rss" text="AIHOT 日报" title="AIHOT 日报" xmlUrl="https://aihot.news/feed/daily.xml" htmlUrl="https://aihot.news/"/>
       <outline type="rss" text="arXiv AI" title="arXiv AI" xmlUrl="https://rss.arxiv.org/rss/cs.AI"/>
       <outline type="rss" text="arXiv 机器学习" title="arXiv 机器学习" xmlUrl="https://rss.arxiv.org/rss/cs.LG"/>
       <outline type="rss" text="arXiv NLP" title="arXiv NLP" xmlUrl="https://rss.arxiv.org/rss/cs.CL"/>

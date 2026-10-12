@@ -74,6 +74,7 @@
 
 | 名称 | 订阅地址 | 说明 |
 |------|----------|------|
+| AIHOT 日报 | `https://aihot.news/feed/daily.xml` | 中文 AI 动态聚合日报，保留原文链接 |
 | arXiv AI | `https://rss.arxiv.org/rss/cs.AI` | AI 论文预印本 |
 | arXiv 机器学习 | `https://rss.arxiv.org/rss/cs.LG` | 机器学习论文 |
 | arXiv NLP | `https://rss.arxiv.org/rss/cs.CL` | 自然语言处理 |
