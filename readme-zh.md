@@ -207,6 +207,7 @@
 | Wired | `https://www.wired.com/feed/rss` | 连线杂志 |
 | Ars Technica | `https://feeds.arstechnica.com/arstechnica/index` | 深度技术分析 |
 | Joho no Todai | `https://joho-todai.com/pinterest-rss/` | 日本科技新闻与分析（日文）；提供标题、简短摘要及原文链接 |
+| Joho no Todai (English) | `https://joho-todai.com/en/rss/` | 英文科技新闻与分析 |
 | MIT Technology Review | `https://www.technologyreview.com/feed/` | 麻省理工科技评论 |
 
 ---
