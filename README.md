@@ -188,6 +188,7 @@ Well-known international tech media with official RSS.
 | Wired                 | `https://www.wired.com/feed/rss`                  | Wired magazine           |
 | Ars Technica          | `https://feeds.arstechnica.com/arstechnica/index` | In-depth tech analysis   |
 | Joho no Todai         | `https://joho-todai.com/pinterest-rss/`            | Japanese tech news and analysis; short excerpts |
+| Joho no Todai (English) | `https://joho-todai.com/en/rss/`                 | English technology news and analysis |
 | MIT Technology Review | `https://www.technologyreview.com/feed/`          | MIT tech review          |
 
 ### Security

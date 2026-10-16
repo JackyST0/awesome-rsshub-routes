@@ -63,6 +63,7 @@
       <outline type="rss" text="Wired" title="Wired" xmlUrl="https://www.wired.com/feed/rss"/>
       <outline type="rss" text="Ars Technica" title="Ars Technica" xmlUrl="https://feeds.arstechnica.com/arstechnica/index"/>
       <outline type="rss" text="Joho no Todai" title="Joho no Todai" xmlUrl="https://joho-todai.com/pinterest-rss/"/>
+      <outline type="rss" text="Joho no Todai (English)" title="Joho no Todai (English)" xmlUrl="https://joho-todai.com/en/rss/" htmlUrl="https://joho-todai.com/"/>
       <outline type="rss" text="MIT Technology Review" title="MIT Technology Review" xmlUrl="https://www.technologyreview.com/feed/"/>
     </outline>
 
