@@ -74,6 +74,7 @@
       <outline type="rss" text="Schneier on Security" title="Schneier on Security" xmlUrl="https://www.schneier.com/feed/"/>
       <outline type="rss" text="CISA News" title="CISA News" xmlUrl="https://www.cisa.gov/news.xml"/>
       <outline type="rss" text="Google Security Blog" title="Google Security Blog" xmlUrl="https://security.googleblog.com/atom.xml"/>
+      <outline type="rss" text="ICHI" title="ICHI" xmlUrl="https://ichi.global/api/alerts"/>
       <outline type="rss" text="FreeBuf" title="FreeBuf" xmlUrl="https://www.freebuf.com/feed"/>
       <outline type="rss" text="安全客" title="安全客" xmlUrl="https://api.anquanke.com/data/v1/rss"/>
     </outline>
