@@ -223,6 +223,7 @@
 | Schneier on Security | `https://www.schneier.com/feed/` | 安全专家博客 |
 | CISA News | `https://www.cisa.gov/news.xml` | 美国网络安全预警 |
 | Google Security Blog | `https://security.googleblog.com/atom.xml` | Google 安全更新 |
+| ICHI | `https://ichi.global/api/alerts` | 互联网网络安全健康指数；来自 20+ 公共来源的关键威胁警报 |
 | FreeBuf | `https://www.freebuf.com/feed` | 国内安全资讯 |
 | 安全客 | `https://api.anquanke.com/data/v1/rss` | 安全技术资讯 |
 
