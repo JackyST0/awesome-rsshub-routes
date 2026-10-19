@@ -1,10 +1,10 @@
 {
-  "checkTime": "2026-10-12 16:32:49 (北京时间)",
-  "total": 102,
+  "checkTime": "2026-10-19 15:16:10 (北京时间)",
+  "total": 103,
   "valid": 97,
-  "limited": 5,
+  "limited": 6,
   "invalid": 0,
-  "successRate": "95.1%",
+  "successRate": "94.2%",
   "feeds": [
     {
       "name": "OpenAI 博客",
@@ -99,11 +99,11 @@
     {
       "name": "Hacker News OpenClaw",
       "url": "https://hnrss.org/newest?q=OpenClaw",
-      "status": "valid",
-      "valid": true,
-      "limited": false,
-      "statusCode": 200,
-      "error": null,
+      "status": "limited",
+      "valid": false,
+      "limited": true,
+      "statusCode": 502,
+      "error": "HTTP 502",
       "finalUrl": "https://hnrss.org/newest?q=OpenClaw"
     },
     {
@@ -435,6 +435,16 @@
       "statusCode": 200,
       "error": null,
       "finalUrl": "https://joho-todai.com/pinterest-rss/"
+    },
+    {
+      "name": "Joho no Todai (English)",
+      "url": "https://joho-todai.com/en/rss/",
+      "status": "valid",
+      "valid": true,
+      "limited": false,
+      "statusCode": 200,
+      "error": null,
+      "finalUrl": "https://joho-todai.com/en/rss/"
     },
     {
       "name": "MIT Technology Review",
@@ -964,7 +974,7 @@
       "limited": false,
       "statusCode": 200,
       "error": null,
-      "finalUrl": "https://www.nature.com/nature.rss?error=cookies_not_supported&code=efd57ea5-b17e-470c-b101-88d6b208ffaa"
+      "finalUrl": "https://www.nature.com/nature.rss"
     },
     {
       "name": "arXiv 计算机视觉",
