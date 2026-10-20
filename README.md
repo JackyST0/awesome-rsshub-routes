@@ -202,6 +202,7 @@ Cybersecurity, vulnerabilities, and threat intelligence.
 | Schneier on Security | `https://www.schneier.com/feed/`              | Security expert blog   |
 | CISA News            | `https://www.cisa.gov/news.xml`               | US cyber alerts        |
 | Google Security Blog | `https://security.googleblog.com/atom.xml`    | Google security updates |
+| ICHI                 | `https://ichi.global/api/alerts`              | Internet cyber health index; critical active threat alerts from 20+ public sources |
 | FreeBuf              | `https://www.freebuf.com/feed`                | Chinese security news  |
 | AnQuanKe             | `https://api.anquanke.com/data/v1/rss`        | Security tech news     |
 
