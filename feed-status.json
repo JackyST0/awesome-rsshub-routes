@@ -1,10 +1,10 @@
 {
-  "checkTime": "2026-10-19 15:16:10 (北京时间)",
-  "total": 103,
-  "valid": 97,
-  "limited": 6,
+  "checkTime": "2026-10-26 15:22:35 (北京时间)",
+  "total": 104,
+  "valid": 99,
+  "limited": 5,
   "invalid": 0,
-  "successRate": "94.2%",
+  "successRate": "95.2%",
   "feeds": [
     {
       "name": "OpenAI 博客",
@@ -99,11 +99,11 @@
     {
       "name": "Hacker News OpenClaw",
       "url": "https://hnrss.org/newest?q=OpenClaw",
-      "status": "limited",
-      "valid": false,
-      "limited": true,
-      "statusCode": 502,
-      "error": "HTTP 502",
+      "status": "valid",
+      "valid": true,
+      "limited": false,
+      "statusCode": 200,
+      "error": null,
       "finalUrl": "https://hnrss.org/newest?q=OpenClaw"
     },
     {
@@ -505,6 +505,16 @@
       "statusCode": 200,
       "error": null,
       "finalUrl": "http://feeds.feedburner.com/GoogleOnlineSecurityBlog"
+    },
+    {
+      "name": "ICHI",
+      "url": "https://ichi.global/api/alerts",
+      "status": "valid",
+      "valid": true,
+      "limited": false,
+      "statusCode": 200,
+      "error": null,
+      "finalUrl": "https://ichi.global/api/alerts"
     },
     {
       "name": "FreeBuf",
