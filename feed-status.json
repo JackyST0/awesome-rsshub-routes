@@ -1,10 +1,10 @@
 {
-  "checkTime": "2026-10-26 15:22:35 (北京时间)",
+  "checkTime": "2026-11-02 16:49:33 (北京时间)",
   "total": 104,
-  "valid": 99,
-  "limited": 5,
+  "valid": 100,
+  "limited": 4,
   "invalid": 0,
-  "successRate": "95.2%",
+  "successRate": "96.2%",
   "feeds": [
     {
       "name": "OpenAI 博客",
@@ -369,11 +369,11 @@
     {
       "name": "阮一峰的网络日志",
       "url": "https://www.ruanyifeng.com/blog/atom.xml",
-      "status": "limited",
-      "valid": false,
-      "limited": true,
-      "statusCode": 403,
-      "error": "HTTP 403",
+      "status": "valid",
+      "valid": true,
+      "limited": false,
+      "statusCode": 200,
+      "error": null,
       "finalUrl": "https://www.ruanyifeng.com/blog/atom.xml"
     },
     {
