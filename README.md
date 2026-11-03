@@ -72,6 +72,7 @@ AI company blogs, research papers, tools and products.
 | Name                   | Feed URL                          | Description  |
 | ---------------------- | --------------------------------- | ------------ |
 | AIHOT Daily Brief | `https://aihot.news/feed/daily.xml` | Chinese AI news aggregation with source links |
+| AnyMsgs (听说了吗？) | `https://anymesgs.com/rss.xml` | Chinese AI news explained with visuals, analogies, and RSS |
 | arXiv AI               | `https://rss.arxiv.org/rss/cs.AI` | AI preprints |
 | arXiv Machine Learning | `https://rss.arxiv.org/rss/cs.LG` | ML papers    |
 | arXiv NLP              | `https://rss.arxiv.org/rss/cs.CL` | NLP papers   |
