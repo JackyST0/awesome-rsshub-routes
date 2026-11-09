@@ -1,10 +1,10 @@
 {
-  "checkTime": "2026-11-02 16:49:33 (北京时间)",
-  "total": 104,
-  "valid": 100,
-  "limited": 4,
+  "checkTime": "2026-11-09 17:01:59 (北京时间)",
+  "total": 105,
+  "valid": 99,
+  "limited": 6,
   "invalid": 0,
-  "successRate": "96.2%",
+  "successRate": "94.3%",
   "feeds": [
     {
       "name": "OpenAI 博客",
@@ -45,6 +45,16 @@
       "statusCode": 200,
       "error": null,
       "finalUrl": "https://aihot.news/feed/daily.xml"
+    },
+    {
+      "name": "听说了吗？",
+      "url": "https://anymesgs.com/rss.xml",
+      "status": "valid",
+      "valid": true,
+      "limited": false,
+      "statusCode": 200,
+      "error": null,
+      "finalUrl": "https://anymesgs.com/rss.xml"
     },
     {
       "name": "arXiv AI",
@@ -99,11 +109,11 @@
     {
       "name": "Hacker News OpenClaw",
       "url": "https://hnrss.org/newest?q=OpenClaw",
-      "status": "valid",
-      "valid": true,
-      "limited": false,
-      "statusCode": 200,
-      "error": null,
+      "status": "limited",
+      "valid": false,
+      "limited": true,
+      "statusCode": 502,
+      "error": "HTTP 502",
       "finalUrl": "https://hnrss.org/newest?q=OpenClaw"
     },
     {
@@ -559,11 +569,11 @@
     {
       "name": "CSS-Tricks",
       "url": "https://css-tricks.com/feed/",
-      "status": "valid",
-      "valid": true,
-      "limited": false,
-      "statusCode": 200,
-      "error": null,
+      "status": "limited",
+      "valid": false,
+      "limited": true,
+      "statusCode": 415,
+      "error": "HTTP 415",
       "finalUrl": "https://css-tricks.com/feed/"
     },
     {
