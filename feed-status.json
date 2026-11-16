@@ -1,5 +1,5 @@
 {
-  "checkTime": "2026-11-09 17:01:59 (北京时间)",
+  "checkTime": "2026-11-16 16:58:22 (北京时间)",
   "total": 105,
   "valid": 99,
   "limited": 6,
@@ -99,11 +99,11 @@
     {
       "name": "Hacker News LLM",
       "url": "https://hnrss.org/newest?q=LLM",
-      "status": "valid",
-      "valid": true,
-      "limited": false,
-      "statusCode": 200,
-      "error": null,
+      "status": "limited",
+      "valid": false,
+      "limited": true,
+      "statusCode": 502,
+      "error": "HTTP 502",
       "finalUrl": "https://hnrss.org/newest?q=LLM"
     },
     {
@@ -569,11 +569,11 @@
     {
       "name": "CSS-Tricks",
       "url": "https://css-tricks.com/feed/",
-      "status": "limited",
-      "valid": false,
-      "limited": true,
-      "statusCode": 415,
-      "error": "HTTP 415",
+      "status": "valid",
+      "valid": true,
+      "limited": false,
+      "statusCode": 200,
+      "error": null,
       "finalUrl": "https://css-tricks.com/feed/"
     },
     {
@@ -994,7 +994,7 @@
       "limited": false,
       "statusCode": 200,
       "error": null,
-      "finalUrl": "https://www.nature.com/nature.rss"
+      "finalUrl": "https://www.nature.com/nature.rss?error=cookies_not_supported&code=c1c88016-cd06-439b-8c35-43391e9feedc"
     },
     {
       "name": "arXiv 计算机视觉",
