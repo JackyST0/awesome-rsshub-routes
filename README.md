@@ -422,6 +422,7 @@ Subscribe to version updates of your favorite RSS tools.
 | [RSSHub Documentation](https://docs.rsshub.app/)           | Route lookup and deployment.     |
 | [ALL-about-RSS](https://github.com/AboutRSS/ALL-about-RSS) | Comprehensive RSS resource list. |
 | [RSS Guide on SSPAI](https://sspai.com/post/56391)         | RSS beginner guide (Chinese).    |
+| [YouTube Channel Feed Guide by Brew](https://getbrew.app/blog/youtube-rss-feed/) | Find channel IDs, verify native Atom feeds, and troubleshoot empty responses. |
 
 ## How to Use
 
