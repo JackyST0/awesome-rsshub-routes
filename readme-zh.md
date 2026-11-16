@@ -481,6 +481,7 @@
 | RSSHub 官方文档 | [docs.rsshub.app](https://docs.rsshub.app/) | 路由查询与部署 |
 | ALL-about-RSS | [GitHub](https://github.com/AboutRSS/ALL-about-RSS) | RSS 生态大全 |
 | RSS 使用指南 | [少数派](https://sspai.com/post/56391) | RSS 入门教程 |
+| YouTube 频道订阅指南（英文） | [Brew](https://getbrew.app/blog/youtube-rss-feed/) | 查找频道 ID、核验原生 Atom 源并排查空响应 |
 
 ---
 
