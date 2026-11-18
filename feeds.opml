@@ -24,6 +24,7 @@
       <outline type="rss" text="OpenClaw Releases" title="OpenClaw Releases" xmlUrl="https://github.com/openclaw/openclaw/releases.atom"/>
       <outline type="rss" text="OpenClaw Commits" title="OpenClaw Commits" xmlUrl="https://github.com/openclaw/openclaw/commits/main.atom"/>
       <outline type="rss" text="Simon Willison's Blog" title="Simon Willison's Blog" xmlUrl="https://simonwillison.net/atom/everything/"/>
+      <outline type="rss" text="Taskade 博客" title="Taskade 博客" xmlUrl="https://www.taskade.com/blog/feed.xml" htmlUrl="https://www.taskade.com/blog"/>
       <outline type="rss" text="OpenAI Codex Releases" title="OpenAI Codex Releases" xmlUrl="https://github.com/openai/codex/releases.atom"/>
       <outline type="rss" text="Claude Code Releases" title="Claude Code Releases" xmlUrl="https://github.com/anthropics/claude-code/releases.atom"/>
       <outline type="rss" text="Gemini CLI Releases" title="Gemini CLI Releases" xmlUrl="https://github.com/google-gemini/gemini-cli/releases.atom"/>

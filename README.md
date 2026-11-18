@@ -89,6 +89,7 @@ AI company blogs, research papers, tools and products.
 | OpenClaw Releases    | `https://github.com/openclaw/openclaw/releases.atom` | OpenClaw release updates      |
 | OpenClaw Commits     | `https://github.com/openclaw/openclaw/commits/main.atom` | Main branch activity         |
 | Simon Willison's Blog | `https://simonwillison.net/atom/everything/`  | LLM insights, Django co-creator    |
+| Taskade Blog | `https://www.taskade.com/blog/feed.xml` | Product blog of Taskade, an AI-native workspace for apps, AI agents and automations |
 
 #### AI Coding and Agent Tools
 

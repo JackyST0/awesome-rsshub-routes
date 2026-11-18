@@ -92,6 +92,7 @@
 | OpenClaw Releases | `https://github.com/openclaw/openclaw/releases.atom` | OpenClaw 版本发布 |
 | OpenClaw Commits | `https://github.com/openclaw/openclaw/commits/main.atom` | 主分支开发动态 |
 | Simon Willison 博客 | `https://simonwillison.net/atom/everything/` | LLM 洞察，Django 联合创始人 |
+| Taskade 博客 | `https://www.taskade.com/blog/feed.xml` | Taskade 官方产品博客，AI 原生工作空间，涵盖应用、AI 智能体与自动化 |
 
 #### AI 编程 & Agent 工具
 
