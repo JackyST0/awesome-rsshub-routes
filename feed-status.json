@@ -1,10 +1,10 @@
 {
-  "checkTime": "2026-11-16 16:58:22 (北京时间)",
+  "checkTime": "2026-11-23 18:14:54 (北京时间)",
   "total": 105,
-  "valid": 99,
-  "limited": 6,
+  "valid": 101,
+  "limited": 4,
   "invalid": 0,
-  "successRate": "94.3%",
+  "successRate": "96.2%",
   "feeds": [
     {
       "name": "OpenAI 博客",
@@ -99,21 +99,21 @@
     {
       "name": "Hacker News LLM",
       "url": "https://hnrss.org/newest?q=LLM",
-      "status": "limited",
-      "valid": false,
-      "limited": true,
-      "statusCode": 502,
-      "error": "HTTP 502",
+      "status": "valid",
+      "valid": true,
+      "limited": false,
+      "statusCode": 200,
+      "error": null,
       "finalUrl": "https://hnrss.org/newest?q=LLM"
     },
     {
       "name": "Hacker News OpenClaw",
       "url": "https://hnrss.org/newest?q=OpenClaw",
-      "status": "limited",
-      "valid": false,
-      "limited": true,
-      "statusCode": 502,
-      "error": "HTTP 502",
+      "status": "valid",
+      "valid": true,
+      "limited": false,
+      "statusCode": 200,
+      "error": null,
       "finalUrl": "https://hnrss.org/newest?q=OpenClaw"
     },
     {
@@ -994,7 +994,7 @@
       "limited": false,
       "statusCode": 200,
       "error": null,
-      "finalUrl": "https://www.nature.com/nature.rss?error=cookies_not_supported&code=c1c88016-cd06-439b-8c35-43391e9feedc"
+      "finalUrl": "https://www.nature.com/nature.rss"
     },
     {
       "name": "arXiv 计算机视觉",
